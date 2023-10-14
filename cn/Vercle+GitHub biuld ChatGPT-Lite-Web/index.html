@@ -139,10 +139,10 @@
   <!--[if lt IE 9]> <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script> <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script> <![endif]-->
 
   <!-- ga & ba script hoook -->
-  <link rel="canonical" href="https://github.com/LuminousHao/LuminousHao.github.io.git/tags/Hexo-Theme-LiveMyLife/">
+  <link rel="canonical" href="https://github.com/LuminousHao/LuminousHao.github.io.git/cn/Vercle+GitHub biuld ChatGPT-Lite-Web/">
   <title>
     
-      Keep calm and carry on
+      Vercle+GitHub biuld ChatGPT-Web - Keep calm and carry on
     
   </title>
 <meta name="generator" content="Hexo 5.4.0"></head>
@@ -348,19 +348,19 @@
     .body--light {
       /* intro-header */
       --intro-header-background-image-url-home: url('/img/header_img/top.jpg');
-      --intro-header-background-image-url-post: url('');
-      --intro-header-background-image-url-page: url('/img/header_img/archive.jpg');
+      --intro-header-background-image-url-post: url('/img/header_img/1015.jpg');
+      --intro-header-background-image-url-page: url('//img/header_img/1015.jpg');
     }
     .body--dark {
       --intro-header-background-image-url-home: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.2)), url('/img/header_img/top.jpg');
-      --intro-header-background-image-url-post: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.2)), url('');
-      --intro-header-background-image-url-page: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.2)), url('/img/header_img/archive.jpg');
+      --intro-header-background-image-url-post: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.2)), url('/img/header_img/1015.jpg');
+      --intro-header-background-image-url-page: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.2)), url('//img/header_img/1015.jpg');
     }
 
     header.intro-header {
-       /*page*/
-        background-image: var(--intro-header-background-image-url-page);
-        /* background-image: url('/img/header_img/archive.jpg'); */
+       /*post*/
+        background-image: var(--intro-header-background-image-url-post);
+        /* background-image: url('/img/header_img/1015.jpg'); */
       
     }
 
@@ -378,10 +378,42 @@
       <div class="row">
         <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
           
-          <div class="site-heading">
-            <h1>Live My Life</h1>
-            <!--<hr class="small">-->
-            <span class="subheading">淡而无味也是一种味道</span>
+          <div class="post-heading">
+            <div class="tags">
+              
+              <a class="tag" href="/tags/#Tutorials" title="Tutorials">Tutorials</a>
+              
+            </div>
+            <h1>Vercle+GitHub biuld ChatGPT-Web</h1>
+            <h2 class="subheading">可预设多种模式及拓展使用GPT4.0</h2>
+            <span class="meta">
+              Posted by LuminousHao on
+              2023-10-15
+            </span>
+
+
+            
+            <!-- WordCount start -->
+            <div class="blank_box"></div>
+            <span class="meta">
+              Estimated Reading Time <span class="post-count">3</span> Minutes
+            </span>
+            <div class="blank_box"></div>
+            <span class="meta">
+              Words <span class="post-count">832</span> In Total
+            </span>
+            <div class="blank_box"></div>
+            <!-- WordCount end -->
+            
+            
+            <!-- 不蒜子统计 start -->
+            <span class="meta" id="busuanzi_container_page_pv">
+              Viewed <span id="busuanzi_value_page_pv"><i class="fa fa-spinner fa-spin"></i></span> Times
+            </span>
+            <!-- 不蒜子统计 end -->
+            
+
+
           </div>
           
         </div>
@@ -422,241 +454,352 @@
 	Friends Blog、
 	anchorjs、
 	) -->
-		<!-- Main Content -->
-<div class="container">
-  <div class="row">
-    
+		<!-- Modify by Yu-Hsuan Yen -->
+<!-- Post Content -->
+<article>
+  <div class="container">
+    <div class="row">
+      <!-- Post Container -->
+      <div class="col-lg-8 col-lg-offset-1 col-md-10 col-md-offset-1 post-container">
 
-    <!-- USE SIDEBAR -->
-    <!-- Post Container -->
-    <div class="
-                col-lg-8 col-lg-offset-1
-                col-md-8 col-md-offset-1
-                col-sm-12
-                col-xs-12
-                post-container
-            ">
+        <h2 id="一、搭建准备">一、搭建准备</h2>
+<h3 id="你的GitHub账号">你的GitHub账号</h3>
+<h3 id="准备好OpeAI-API-Key">准备好OpeAI API Key</h3>
+<h3 id="科学上网工具，否则很难访问Vercel">科学上网工具，否则很难访问Vercel</h3>
+<h3 id="Vercel-Deploy"><a target="_blank" rel="noopener" href="https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2FYidadaa%2FChatGPT-Next-Web&amp;env=OPENAI_API_KEY&amp;env=CODE&amp;project-name=chatgpt-next-web&amp;repository-name=ChatGPT-Next-Web">Vercel</a> Deploy</h3>
+<h3 id="自己的域名-可选">自己的域名(可选)</h3>
+<h2 id="二、搭建流程">二、搭建流程</h2>
+<h3 id="初始化部署">初始化部署</h3>
+<p>科学上网，并确保网页版GitHub已经登录，点击上方<strong>Vercel</strong>链接并选择GitHub账号登录:</p>
+<ul>
+<li>
+<p>点击Create创建仓库</p>
+</li>
+<li>
+<p>并在Configure Project中配置好环境变量，然后点击<strong>Deploy</strong>即可，等待生成即可访问</p>
+</li>
+</ul>
+<p>OPENAI_API_KEY:粘贴你的API Key</p>
+<p>CODE:此处填写为访问密码，可填写多个，用“,”隔开 password1,password2(若不需要设置密码可跳过或未来在环境变量中删除此项，但无密码存在被爆破的风险)<br>
+<img src="1.png" alt="Alt text"></p>
+<h3 id="保持更新">保持更新</h3>
+<p>如果你按照上述步骤一键部署了自己的项目，可能会发现总是提示“存在更新”的问题，这是由于 Vercel 会默认为你创建一个新项目而不是 fork 本项目，这会导致无法正确地检测更新。 推荐你按照下列步骤重新部署：</p>
+<ul>
+<li>
+<p>删除掉原先的仓库；</p>
+</li>
+<li>
+<p>使用页面右上角的 fork 按钮，fork <a href="https://github.com/Yidadaa/ChatGPT-Next-Web">本项目</a>；</p>
+</li>
+<li>
+<p>在项目Actions 页面启用 Workflows，并启用 Upstream Sync Action，启用之后即可开启每小时定时自动更新；</p>
+</li>
+</ul>
+<p><img src="2.jpg" alt="自动更新"></p>
+<p><img src="3.png" alt="启用自动更新"></p>
+<ul>
+<li>在 Vercel 重新选择并部署；</li>
+</ul>
+<h3 id="Vercel-重新选择并部署">Vercel 重新选择并部署</h3>
+<p>当我们从 Github fork 本项目之后，需要重新在 Vercel 创建一个全新的 Vercel 项目来重新部署，首先点击黑色按钮 Add New… -&gt; Project</p>
+<p><img src="4.png" alt=""></p>
+<ul>
+<li>
+<p>在 Import Git Repository 处，搜索 chatgpt-next-web；</p>
+</li>
+<li>
+<p>选中新 fork 的项目，点击 Import；</p>
+</li>
+<li>
+<p>在项目配置页，点开 Environmane Variables 开始配置环境变量；</p>
+</li>
+<li>
+<p>依次新增名为 OPENAI_API_KEY 和 CODE 的环境变量；</p>
+</li>
+<li>
+<p>填入环境变量对应的值(需手动输入环境变量的Name)；</p>
+</li>
+<li>
+<p>记得点击  <strong>Add</strong>  确认增加第二个环境变量(以后每次修改环境变量后都需要在本项目<strong>Deployments</strong>中的第一栏选择<strong>Redeploy</strong>)；</p>
+</li>
+<li>
+<p>请确保你添加了 OPENAI_API_KEY，否则无法使用；</p>
+</li>
+<li>
+<p>点击 <strong>Deploy</strong>，创建完成，耐心等待部署完成，成功后可点击<strong>Visit</strong>尝试访问；</p>
+</li>
+</ul>
+<h3 id="链接自定义域名-可选">链接自定义域名(可选)</h3>
+<p>在Vercel首页点击我们新建的项目，也就是第一个，点击最右侧的<strong>Settings</strong><img src="5.png" alt=""></p>
+<p>-&gt;Domains,在上方输入自己的域名并点击<strong>Add</strong>，默认使用Recommended，创建后点击<strong>Edit</strong>在<strong>Redirect to</strong> 将你的域名重定向到.app的初始域名，点击<strong>Save</strong>；</p>
+<p><img src="6.png" alt=""></p>
+<p>此时仍会提示无效配置，接下来需要到域名提供商的控制台进行解析，这里以阿里云为例:</p>
+<p><img src="7.png" alt=""></p>
+<p>注意上方 <strong>Type</strong> A, <strong>Name</strong> @ , <strong>Value</strong> 76.76.21.21</p>
+<p>进入登录阿里云，进入域名管理控制台，找到域名并点进<strong>解析设置</strong>中，点击<strong>添加记录</strong></p>
+<p><img src="8.png" alt=""></p>
+<ul>
+<li>
+<p>记录类型选择 A</p>
+</li>
+<li>
+<p>主机记录中选择 @</p>
+</li>
+<li>
+<p>记录值粘贴 <strong>Value</strong>地址</p>
+</li>
+<li>
+<p>TTL默认即可</p>
+</li>
+<li>
+<p>点击<strong>确认</strong>后返回Vercel中刷新域名设置即可</p>
+</li>
+</ul>
+<p><img src="9.png" alt=""><br>
+设置成功<img src="10.png" alt=""></p>
+<h2 id="三、结语">三、结语</h2>
+<p>Vercel为我们提供了一个低门栏的便捷跨平台AI工具，相比直接访问OpenAI官网有更快的速度，平台内置众多预设模型堪比AIPRM插件，同时支持导入模型且只需使用对应API即可体验GPT4.0。</p>
+<p><img src="11.png" alt=""><img src="12.png" alt=""></p>
+<p>最后，祝你成功，实现GPT自由！</p>
 
-      <!-- Main Content -->
-<div class="container">
-  <div class="row">
-    <div class="col-lg-8 col-lg-offset-0 col-md-10 col-md-offset-1">
-      <!-- 归档列表 -->
 
-      
-
-      <!-- 归档列表 -->
-      
-      <div class="one-tag-list">
-        <span class="fa fa-calendar-times-o listing-seperator" id="2023">
-          <span class="tag-text">2023</span>
-        </span>
-        <ul>
+        <hr>
+        <!-- Pager -->
+        <ul class="pager">
           
-          <li>
-            10-05
-            <i class="fa fa-angle-double-right" aria-hidden="true"></i>
-            <a href="/cn/三种排序的算法/" style="color: #0085a1">
-              <span>
-                排序算法
-                
-                -- cn
-                
-              </span>
-            </a>
-          </li>
           
-          <li>
-            08-11
-            <i class="fa fa-angle-double-right" aria-hidden="true"></i>
-            <a href="/cn/Blog Building/" style="color: #0085a1">
-              <span>
-                Hexo+Github博客搭建
-                
-                -- cn
-                
-              </span>
-            </a>
-          </li>
-          
-          <li>
-            08-10
-            <i class="fa fa-angle-double-right" aria-hidden="true"></i>
-            <a href="/cn/Hexo-Theme-LiveMyLife/" style="color: #0085a1">
-              <span>
-                我的第一个博客
-                
-                -- cn
-                
-              </span>
-            </a>
+          <li class="next">
+            <a href="/cn/三种排序的算法/" data-toggle="tooltip" data-placement="top" title="排序算法">Next Post &rarr;</a>
           </li>
           
         </ul>
+
+        
+        <!-- tip start -->
+        <!-- tip -->
+<!-- tip start -->
+<div class="tip">
+  <p>
+    
+      如果您喜欢此博客或发现它对您有用，则欢迎对此发表评论。 也欢迎您共享此博客，以便更多人可以参与。 如果博客中使用的图像侵犯了您的版权，请与作者联系以将其删除。 谢谢 ！
+    
+  </p>
+</div>
+<!-- tip end -->
+
+        <!-- tip end -->
+        
+
+        
+        <!-- Sharing Srtart -->
+        <!-- Social Social Share Post -->
+<!-- Docs:https://github.com/overtrue/share.js -->
+
+<div class="social-share" data-initialized="true" data-disabled="tencent ,douban ,qzone ,linkedin ,facebook ,google ,diandian" data-wechat-qrcode-helper="" align="center">
+  <ul class="list-inline text-center social-share-ul">
+    <li class="social-share-li">
+      <a target="_blank" class="social-share-icon icon-twitter">
+        <i class="fa fa-twitter fa-1x" aria-hidden="true"></i>
+      </a>
+    </li>
+    <li class="social-share-li">
+      <a class="social-share-icon icon-wechat">
+        <i class="fa fa-weixin fa-1x" aria-hidden="true"></i>
+      </a>
+    </li>
+    <li class="social-share-li">
+      <a target="_blank" class="social-share-icon icon-weibo">
+        <i class="fa fa-weibo fa-1x" aria-hidden="true"></i>
+      </a>
+    </li>
+    <li class="social-share-li">
+      <a target="_blank" class="social-share-icon icon-qq">
+        <i class="fa fa-qq fa-1x" aria-hidden="true"></i>
+      </a>
+    </li>
+    <li class="social-share-li">
+      <a target="_blank" class="social-share-icon" href="mailto:?subject=Vercle+GitHub biuld ChatGPT-Web&body=Hi,I found this website and thought you might like it https://github.com/LuminousHao/LuminousHao.github.io.git/cn/Vercle+GitHub biuld ChatGPT-Lite-Web/">
+        <i class="fa fa-envelope fa-1x" aria-hidden="true"></i>
+      </a>
+    </li>
+  </ul>
+</div>
+
+<!-- css & js -->
+<!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/social-share.js/1.0.16/css/share.min.css"> -->
+<script defer="defer" async="true" src="https://cdnjs.cloudflare.com/ajax/libs/social-share.js/1.0.16/js/social-share.min.js"></script>
+
+        <!-- Sharing End -->
+        
+        <hr>
+
+        <!-- comments start -->
+        <!-- 1. gitalk comment -->
+
+  <!-- gitalk start -->
+  <!-- Docs:https://github.com/gitalk/gitalk/blob/master/readme-cn.md -->
+
+  <div id="gitalk-container"></div>
+
+  
+    <!-- <script src="https://cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.js"></script> -->
+    <script src="/js/comment/gitalk.js"></script>
+  
+
+  <script>
+    var gitalk = new Gitalk({
+      clientID: '1a7a6b46b2ec8a5c18d9',
+      clientSecret: 'fc29aa5336cac5e1663a71322e87847ce86a2b00',
+      repo: 'microboke',
+      owner: 'LuminousHao',
+      admin: 'LuminousHao',
+      id: 'Sun Oct 15 2023 00:00:00 GMT+0800', // Ensure uniqueness and length less than 50
+      distractionFreeMode: false, // Facebook-like distraction free mode
+      perPage: 10,
+      pagerDirection: 'last',
+      createIssueManually: false,
+      language: 'zh-CN',
+      proxy: 'https://cors-anywhere.azm.workers.dev/https://github.com/login/oauth/access_token'
+    });
+    gitalk.render('gitalk-container');
+
+    var gtFolded = () => {
+      setTimeout(function () {
+        let markdownBody = document.getElementsByClassName("markdown-body");
+        let list = Array.from(markdownBody);
+        list.forEach(item => {
+          if (item.clientHeight > 250) {
+            item.classList.add('gt-comment-body-folded');
+            item.style.maxHeight = '250px';
+            item.title = 'Click to Expand';
+            item.onclick = function () {
+              item.classList.remove('gt-comment-body-folded');
+              item.style.maxHeight = '';
+              item.title = '';
+              item.onclick = null;
+            };
+          }
+        })
+      }, 800);
+    }
+  </script>
+
+  <!-- gitalk end -->
+
+
+<!-- 2. gitment comment -->
+
+
+<!-- 3. disqus comment -->
+
+
+        <!-- comments end -->
+        <hr>
+
       </div>
-      
-    </div>
-  </div>
-</div>
 
+      <!-- Catalog: Tabe of Content -->
+      <!-- Table of Contents -->
 
-      <!-- 如果开启评论功能 -->
-      
-    </div>
-
-    <!-- Sidebar Container -->
-<div class="
-    col-lg-3 col-lg-offset-0
-    col-md-3 col-md-offset-0
-    col-sm-12
-    col-xs-12
-    sidebar-container
-">
     
+      <aside id="sidebar">
+        <div id="toc" class="toc-article">
+        <strong class="toc-title">目录</strong>
+        
+          <ol class="toc-nav"><li class="toc-nav-item toc-nav-level-2"><a class="toc-nav-link" href="#%E4%B8%80%E3%80%81%E6%90%AD%E5%BB%BA%E5%87%86%E5%A4%87"><span class="toc-nav-number">1.</span> <span class="toc-nav-text">一、搭建准备</span></a><ol class="toc-nav-child"><li class="toc-nav-item toc-nav-level-3"><a class="toc-nav-link" href="#%E4%BD%A0%E7%9A%84GitHub%E8%B4%A6%E5%8F%B7"><span class="toc-nav-number">1.1.</span> <span class="toc-nav-text">你的GitHub账号</span></a></li><li class="toc-nav-item toc-nav-level-3"><a class="toc-nav-link" href="#%E5%87%86%E5%A4%87%E5%A5%BDOpeAI-API-Key"><span class="toc-nav-number">1.2.</span> <span class="toc-nav-text">准备好OpeAI API Key</span></a></li><li class="toc-nav-item toc-nav-level-3"><a class="toc-nav-link" href="#%E7%A7%91%E5%AD%A6%E4%B8%8A%E7%BD%91%E5%B7%A5%E5%85%B7%EF%BC%8C%E5%90%A6%E5%88%99%E5%BE%88%E9%9A%BE%E8%AE%BF%E9%97%AEVercel"><span class="toc-nav-number">1.3.</span> <span class="toc-nav-text">科学上网工具，否则很难访问Vercel</span></a></li><li class="toc-nav-item toc-nav-level-3"><a class="toc-nav-link" href="#Vercel-Deploy"><span class="toc-nav-number">1.4.</span> <span class="toc-nav-text">Vercel Deploy</span></a></li><li class="toc-nav-item toc-nav-level-3"><a class="toc-nav-link" href="#%E8%87%AA%E5%B7%B1%E7%9A%84%E5%9F%9F%E5%90%8D-%E5%8F%AF%E9%80%89"><span class="toc-nav-number">1.5.</span> <span class="toc-nav-text">自己的域名(可选)</span></a></li></ol></li><li class="toc-nav-item toc-nav-level-2"><a class="toc-nav-link" href="#%E4%BA%8C%E3%80%81%E6%90%AD%E5%BB%BA%E6%B5%81%E7%A8%8B"><span class="toc-nav-number">2.</span> <span class="toc-nav-text">二、搭建流程</span></a><ol class="toc-nav-child"><li class="toc-nav-item toc-nav-level-3"><a class="toc-nav-link" href="#%E5%88%9D%E5%A7%8B%E5%8C%96%E9%83%A8%E7%BD%B2"><span class="toc-nav-number">2.1.</span> <span class="toc-nav-text">初始化部署</span></a></li><li class="toc-nav-item toc-nav-level-3"><a class="toc-nav-link" href="#%E4%BF%9D%E6%8C%81%E6%9B%B4%E6%96%B0"><span class="toc-nav-number">2.2.</span> <span class="toc-nav-text">保持更新</span></a></li><li class="toc-nav-item toc-nav-level-3"><a class="toc-nav-link" href="#Vercel-%E9%87%8D%E6%96%B0%E9%80%89%E6%8B%A9%E5%B9%B6%E9%83%A8%E7%BD%B2"><span class="toc-nav-number">2.3.</span> <span class="toc-nav-text">Vercel 重新选择并部署</span></a></li><li class="toc-nav-item toc-nav-level-3"><a class="toc-nav-link" href="#%E9%93%BE%E6%8E%A5%E8%87%AA%E5%AE%9A%E4%B9%89%E5%9F%9F%E5%90%8D-%E5%8F%AF%E9%80%89"><span class="toc-nav-number">2.4.</span> <span class="toc-nav-text">链接自定义域名(可选)</span></a></li></ol></li><li class="toc-nav-item toc-nav-level-2"><a class="toc-nav-link" href="#%E4%B8%89%E3%80%81%E7%BB%93%E8%AF%AD"><span class="toc-nav-number">3.</span> <span class="toc-nav-text">三、结语</span></a></li></ol>
+        
+        </div>
+      </aside>
+    
+
+
+
+      <!-- Sidebar Container -->
+      <div class="
+                col-lg-8 col-lg-offset-1
+                col-md-10 col-md-offset-1
+                sidebar-container">
+
         <!-- Featured Tags -->
+        
+        <section>
+          <!-- no hr -->
+          <h5>
+            <a href="/tags/">特色标签</a>
+          </h5>
+          <div class="tags">
+            
+            <a class="tag" href="/tags/#Tutorials" title="Tutorials">Tutorials</a>
+            
+          </div>
+        </section>
+        
 
-<section>
-  <h5><a href="/tags/">特色标签</a></h5>
-  <div class="tags">
-    
-    
-    <a href="/tags/#Hexo" title="Hexo" rel="1">Hexo</a>
-    
-    
-    
-    <a href="/tags/#Hexo-Theme-LiveMyLife" title="Hexo-Theme-LiveMyLife" rel="1">Hexo-Theme-LiveMyLife</a>
-    
-    
-    
-    <a href="/tags/#Algorithm" title="Algorithm" rel="1">Algorithm</a>
-    
-    
-  </div>
-</section>
-
-
-        <hr>
-    
-        <!-- Short About -->
-<section class="visible-md visible-lg">
-  <h5><a href="/about/">关于自己</a></h5>
-  <div class="short-about">
-
-    
-    <img id="avatar_pic" src="/img/avatar/avatar_pic.jpg" alt="avatar_pic" style="box-shadow: 5px 5px 10px 5px rgba(0, 0, 0, .5);
-    -moz-box-shadow: 5px 5px 10px 5px rgba(0, 0, 0, .5);
-    -webkit-box-shadow: 5px 5px 10px 5px rgba(0, 0, 0, .5);" />
-    
-
-    
-    <p>Never ever let this flame burn down</p>
-    
-
-    <!-- SNS Link -->
-    <ul class="list-inline">
-      
-
-      
-      <li>
-        <a target="_blank" href="https://github.com/LuminousHao">
-          <span class="fa-stack fa-lg">
-            <i class="fa fa-circle fa-stack-2x"></i>
-            <i class="fa fa-github fa-stack-1x fa-inverse"></i>
-          </span>
-        </a>
-      </li>
-      
-
-      
-
-      
-
-      
-
-      
-
-      
-
-      
-
-    </ul>
-  </div>
-</section>
-
-        <hr>
-    
-        <!-- RECENT POSTS -->
-
-<h5><a href="/">最近博文</a></h5>
-<div class="widget">
-  <ul>
-    
-    <a href="../../cn/%E4%B8%89%E7%A7%8D%E6%8E%92%E5%BA%8F%E7%9A%84%E7%AE%97%E6%B3%95/">
-      <li>排序算法</li>
-    </a>
-    
-    <a href="../../cn/Blog%20Building/">
-      <li>Hexo+Github博客搭建</li>
-    </a>
-    
-    <a href="../../cn/Hexo-Theme-LiveMyLife/">
-      <li>我的第一个博客</li>
-    </a>
-    
-  </ul>
-</div>
-
-
-        <hr>
-    
         <!-- Friends Blog -->
-
-<h5><a href="/">链友</a></h5>
-<ul class="list-inline">
-  
-  <li><a href="https://luminoushao.github.io//" target="_blank">LuminousHao</a></li>
-  
-</ul>
-
-
+        
         <hr>
-    
-        <!-- Archives -->
+        <h5>链友</h5>
+        <ul class="list-inline">
 
-<h5><a href="/archives/">archives</a></h5>
-<div class="widget">
-  <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="../../archives/2023/10/">October 2023</a><span class="archive-list-count">1</span></li><li class="archive-list-item"><a class="archive-list-link" href="../../archives/2023/08/">August 2023</a><span class="archive-list-count">2</span></li></ul>
-</div>
-
-
-        <hr>
-    
-        <!-- Categories -->
-
-<h5><a href="/categories/">categories</a></h5>
-<div class="widget">
-  <ul>
-    
-    <a href="/categories/#Tutorials and Guides">
-      <li>Tutorials and Guides</li>
-    </a>
-    
-    <a href="/categories/#Hexo-Theme-LiveMyLife">
-      <li>Hexo-Theme-LiveMyLife</li>
-    </a>
-    
-  </ul>
-</div>
-
-
-        <hr>
-    
-</div>
-
-
-    
+          
+          <li>
+            <a href="https://luminoushao.github.io//" target="_blank">LuminousHao</a>
+          </li>
+          
+        </ul>
+        
+      </div>
+    </div>
   </div>
-</div>
+</article>
+
+
+
+<!-- anchorjs start -->
+<!-- async load function -->
+<!-- anchor-js, Doc:http://bryanbraun.github.io/anchorjs/ -->
+<script type="text/javascript">
+  // async load function
+  function async (u, c) {
+    var d = document,
+      t = 'script',
+      o = d.createElement(t),
+      s = d.getElementsByTagName(t)[0];
+    o.src = u;
+    if (c) {
+      o.addEventListener('load', function(e) {
+        c(null, e);
+      }, false);
+    }
+    s.parentNode.insertBefore(o, s);
+  };
+</script>
+<script type="text/javascript">
+  //anchor-js, Doc:http://bryanbraun.github.io/anchorjs/
+  async ("https://cdn.bootcss.com/anchor-js/1.1.1/anchor.min.js", function() {
+    anchors.options = {
+      visible: 'hover',
+      placement: 'left',
+      // icon: 'ℬ'
+      icon: '❡'
+    };
+    anchors.add().remove('.intro-header h1').remove('.subheading').remove('.sidebar-container h5');
+  });
+</script>
+<style>
+  /* place left on bigger screen */
+  @media all and (min-width: 800px) {
+    .anchorjs-link {
+      position: absolute;
+      left: -0.75em;
+      font-size: 1.1em;
+      margin-top: -0.1em;
+    }
+  }
+</style>
+
+<!-- anchorjs end -->
+
 
 
 		<!-- Footer (contains ThemeColor、viewer) -->
