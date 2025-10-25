@@ -445,7 +445,7 @@ pre code {
   line-height: 1.7;
   font-size: 25px;
   font-weight: bold;
-  color: #000000b5;
+  color: #000000bb;
   line-height: 1.1;
   display: block;
   
@@ -456,7 +456,7 @@ pre code {
   .intro-header .page-heading .subheading {
     font-size: 45px; 
     font-weight: bold;
-    color: #000000b5;
+    color: #000000bb;
   }
 }
 /* .intro-header .site-heading .subheading,
