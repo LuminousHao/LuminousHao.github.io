@@ -210,7 +210,7 @@ body {
   }
 
   .navbar-custom .nav li a {
-    color: var(--navbar-brand-color_768);
+    color: #000000d6;
   }
 
   .navbar-custom .nav li a:hover,
