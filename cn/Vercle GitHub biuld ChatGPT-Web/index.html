@@ -230,7 +230,7 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <a class="navbar-brand" href="/">HAO</a>
+      <a class="navbar-brand" href="/"></a>
     </div>
 
     <!-- Collect the nav links, forms, and other content for toggling -->
@@ -247,17 +247,6 @@
           
           
           <li>
-            <a href="/archive/">
-              
-              归档
-              
-              
-            </a>
-          </li>
-          
-          
-          
-          <li>
             <a href="/about/">
               
               关于
@@ -269,9 +258,9 @@
           
           
           <li>
-            <a href="/tags/">
+            <a href="/archive/">
               
-              标签
+              归档
               
               
             </a>
@@ -283,6 +272,17 @@
             <a href="/categories/">
               
               分类
+              
+              
+            </a>
+          </li>
+          
+          
+          
+          <li>
+            <a href="/tags/">
+              
+              标签
               
               
             </a>
@@ -400,7 +400,7 @@
             </span>
             <div class="blank_box"></div>
             <span class="meta">
-              Words <span class="post-count">832</span> In Total
+              Words <span class="post-count">830</span> In Total
             </span>
             <div class="blank_box"></div>
             <!-- WordCount end -->
@@ -463,37 +463,24 @@
       <!-- Post Container -->
       <div class="col-lg-8 col-lg-offset-1 col-md-10 col-md-offset-1 post-container">
 
-        <h2 id="一、搭建准备">一、搭建准备</h2>
-<h3 id="你的GitHub账号">你的GitHub账号</h3>
-<h3 id="准备好OpeAI-API-Key">准备好OpeAI API Key</h3>
-<h3 id="科学上网工具，否则很难访问Vercel">科学上网工具，否则很难访问Vercel</h3>
-<h3 id="Vercel-Deploy"><a target="_blank" rel="noopener" href="https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2FYidadaa%2FChatGPT-Next-Web&amp;env=OPENAI_API_KEY&amp;env=CODE&amp;project-name=chatgpt-next-web&amp;repository-name=ChatGPT-Next-Web">Vercel</a> Deploy</h3>
-<h3 id="自己的域名-可选">自己的域名(可选)</h3>
-<h2 id="二、搭建流程">二、搭建流程</h2>
-<h3 id="初始化部署">初始化部署</h3>
-<p>科学上网，并确保网页版GitHub已经登录，点击上方<strong>Vercel</strong>链接并选择GitHub账号登录:</p>
+        <h2 id="一、搭建准备"><a href="#一、搭建准备" class="headerlink" title="一、搭建准备"></a>一、搭建准备</h2><h3 id="你的GitHub账号"><a href="#你的GitHub账号" class="headerlink" title="你的GitHub账号"></a>你的GitHub账号</h3><h3 id="准备好OpeAI-API-Key"><a href="#准备好OpeAI-API-Key" class="headerlink" title="准备好OpeAI API Key"></a>准备好OpeAI API Key</h3><h3 id="科学上网工具，否则很难访问Vercel"><a href="#科学上网工具，否则很难访问Vercel" class="headerlink" title="科学上网工具，否则很难访问Vercel"></a>科学上网工具，否则很难访问Vercel</h3><h3 id="Vercel-Deploy"><a href="#Vercel-Deploy" class="headerlink" title="Vercel Deploy"></a><a target="_blank" rel="noopener" href="https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2FYidadaa%2FChatGPT-Next-Web&amp;env=OPENAI_API_KEY&amp;env=CODE&amp;project-name=chatgpt-next-web&amp;repository-name=ChatGPT-Next-Web">Vercel</a> Deploy</h3><h3 id="自己的域名-可选"><a href="#自己的域名-可选" class="headerlink" title="自己的域名(可选)"></a>自己的域名(可选)</h3><h2 id="二、搭建流程"><a href="#二、搭建流程" class="headerlink" title="二、搭建流程"></a>二、搭建流程</h2><h3 id="初始化部署"><a href="#初始化部署" class="headerlink" title="初始化部署"></a>初始化部署</h3><p>科学上网，并确保网页版GitHub已经登录，点击上方<strong>Vercel</strong>链接并选择GitHub账号登录:</p>
 <ul>
-<li>
-<p>点击Create创建仓库</p>
+<li><p>点击Create创建仓库</p>
 </li>
-<li>
-<p>并在Configure Project中配置好环境变量，然后点击<strong>Deploy</strong>即可，等待生成即可访问</p>
+<li><p>并在Configure Project中配置好环境变量，然后点击<strong>Deploy</strong>即可，等待生成即可访问</p>
+<pre><code>OPENAI_API_KEY:粘贴你的API Key
+
+CODE:此处填写为访问密码，可填写多个，用“,”隔开 password1,password2(若不需要设置密码可跳过或未来在环境变量中删除此项，但无密码存在被爆破的风险)
+</code></pre><p><img src="1.png" alt="Alt text"></p>
 </li>
 </ul>
-<p>OPENAI_API_KEY:粘贴你的API Key</p>
-<p>CODE:此处填写为访问密码，可填写多个，用“,”隔开 password1,password2(若不需要设置密码可跳过或未来在环境变量中删除此项，但无密码存在被爆破的风险)<br>
-<img src="1.png" alt="Alt text"></p>
-<h3 id="保持更新">保持更新</h3>
-<p>如果你按照上述步骤一键部署了自己的项目，可能会发现总是提示“存在更新”的问题，这是由于 Vercel 会默认为你创建一个新项目而不是 fork 本项目，这会导致无法正确地检测更新。 推荐你按照下列步骤重新部署：</p>
+<h3 id="保持更新"><a href="#保持更新" class="headerlink" title="保持更新"></a>保持更新</h3><p>如果你按照上述步骤一键部署了自己的项目，可能会发现总是提示“存在更新”的问题，这是由于 Vercel 会默认为你创建一个新项目而不是 fork 本项目，这会导致无法正确地检测更新。 推荐你按照下列步骤重新部署：</p>
 <ul>
-<li>
-<p>删除掉原先的仓库；</p>
+<li><p>删除掉原先的仓库；</p>
 </li>
-<li>
-<p>使用页面右上角的 fork 按钮，fork <a href="https://github.com/Yidadaa/ChatGPT-Next-Web">本项目</a>；</p>
+<li><p>使用页面右上角的 fork 按钮，fork <a href="https://github.com/Yidadaa/ChatGPT-Next-Web">本项目</a>；</p>
 </li>
-<li>
-<p>在项目Actions 页面启用 Workflows，并启用 Upstream Sync Action，启用之后即可开启每小时定时自动更新；</p>
+<li><p>在项目Actions 页面启用 Workflows，并启用 Upstream Sync Action，启用之后即可开启每小时定时自动更新；</p>
 </li>
 </ul>
 <p><img src="2.jpg" alt="自动更新"></p>
@@ -501,37 +488,27 @@
 <ul>
 <li>在 Vercel 重新选择并部署；</li>
 </ul>
-<h3 id="Vercel-重新选择并部署">Vercel 重新选择并部署</h3>
-<p>当我们从 Github fork 本项目之后，需要重新在 Vercel 创建一个全新的 Vercel 项目来重新部署，首先点击黑色按钮 Add New… -&gt; Project</p>
-<p><img src="4.png" alt=""></p>
+<h3 id="Vercel-重新选择并部署"><a href="#Vercel-重新选择并部署" class="headerlink" title="Vercel 重新选择并部署"></a>Vercel 重新选择并部署</h3><p>当我们从 Github fork 本项目之后，需要重新在 Vercel 创建一个全新的 Vercel 项目来重新部署，首先点击黑色按钮 Add New… -&gt; Project</p>
+<p><img src="4.png" alt="">    </p>
 <ul>
-<li>
-<p>在 Import Git Repository 处，搜索 chatgpt-next-web；</p>
+<li><p>在 Import Git Repository 处，搜索 chatgpt-next-web；</p>
 </li>
-<li>
-<p>选中新 fork 的项目，点击 Import；</p>
+<li><p>选中新 fork 的项目，点击 Import；</p>
 </li>
-<li>
-<p>在项目配置页，点开 Environmane Variables 开始配置环境变量；</p>
+<li><p>在项目配置页，点开 Environmane Variables 开始配置环境变量；</p>
 </li>
-<li>
-<p>依次新增名为 OPENAI_API_KEY 和 CODE 的环境变量；</p>
+<li><p>依次新增名为 OPENAI_API_KEY 和 CODE 的环境变量；</p>
 </li>
-<li>
-<p>填入环境变量对应的值(需手动输入环境变量的Name)；</p>
+<li><p>填入环境变量对应的值(需手动输入环境变量的Name)；</p>
 </li>
-<li>
-<p>记得点击  <strong>Add</strong>  确认增加第二个环境变量(以后每次修改环境变量后都需要在本项目<strong>Deployments</strong>中的第一栏选择<strong>Redeploy</strong>)；</p>
+<li><p>记得点击  <strong>Add</strong>  确认增加第二个环境变量(以后每次修改环境变量后都需要在本项目<strong>Deployments</strong>中的第一栏选择<strong>Redeploy</strong>)；</p>
 </li>
-<li>
-<p>请确保你添加了 OPENAI_API_KEY，否则无法使用；</p>
+<li><p>请确保你添加了 OPENAI_API_KEY，否则无法使用；</p>
 </li>
-<li>
-<p>点击 <strong>Deploy</strong>，创建完成，耐心等待部署完成，成功后可点击<strong>Visit</strong>尝试访问；</p>
+<li><p>点击 <strong>Deploy</strong>，创建完成，耐心等待部署完成，成功后可点击<strong>Visit</strong>尝试访问；</p>
 </li>
 </ul>
-<h3 id="链接自定义域名-可选">链接自定义域名(可选)</h3>
-<p>在Vercel首页点击我们新建的项目，也就是第一个，点击最右侧的<strong>Settings</strong><img src="5.png" alt=""></p>
+<h3 id="链接自定义域名-可选"><a href="#链接自定义域名-可选" class="headerlink" title="链接自定义域名(可选)"></a>链接自定义域名(可选)</h3><p>在Vercel首页点击我们新建的项目，也就是第一个，点击最右侧的<strong>Settings</strong><img src="5.png" alt=""></p>
 <p>-&gt;Domains,在上方输入自己的域名并点击<strong>Add</strong>，默认使用Recommended，创建后点击<strong>Edit</strong>在<strong>Redirect to</strong> 将你的域名重定向到.app的初始域名，点击<strong>Save</strong>；</p>
 <p><img src="6.png" alt=""></p>
 <p>此时仍会提示无效配置，接下来需要到域名提供商的控制台进行解析，这里以阿里云为例:</p>
@@ -540,26 +517,19 @@
 <p>进入登录阿里云，进入域名管理控制台，找到域名并点进<strong>解析设置</strong>中，点击<strong>添加记录</strong></p>
 <p><img src="8.png" alt=""></p>
 <ul>
-<li>
-<p>记录类型选择 A</p>
+<li><p>记录类型选择 A</p>
 </li>
-<li>
-<p>主机记录中选择 @</p>
+<li><p>主机记录中选择 @</p>
 </li>
-<li>
-<p>记录值粘贴 <strong>Value</strong>地址</p>
+<li><p>记录值粘贴 <strong>Value</strong>地址</p>
 </li>
-<li>
-<p>TTL默认即可</p>
+<li><p>TTL默认即可</p>
 </li>
-<li>
-<p>点击<strong>确认</strong>后返回Vercel中刷新域名设置即可</p>
+<li><p>点击<strong>确认</strong>后返回Vercel中刷新域名设置即可</p>
 </li>
 </ul>
-<p><img src="9.png" alt=""><br>
-设置成功<img src="10.png" alt=""></p>
-<h2 id="三、结语">三、结语</h2>
-<p>Vercel为我们提供了一个低门栏的便捷跨平台AI工具，相比直接访问OpenAI官网有更快的速度，平台内置众多预设模型堪比AIPRM插件，同时支持导入模型且只需使用对应API即可体验GPT4.0。</p>
+<p><img src="9.png" alt=""><br>设置成功<img src="10.png" alt=""></p>
+<h2 id="三、结语"><a href="#三、结语" class="headerlink" title="三、结语"></a>三、结语</h2><p>Vercel为我们提供了一个低门栏的便捷跨平台AI工具，相比直接访问OpenAI官网有更快的速度，平台内置众多预设模型堪比AIPRM插件，同时支持导入模型且只需使用对应API即可体验GPT4.0。</p>
 <p><img src="11.png" alt=""><img src="12.png" alt=""></p>
 <p>最后，祝你成功，实现GPT自由！</p>
 

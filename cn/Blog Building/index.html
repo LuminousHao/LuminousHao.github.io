@@ -230,7 +230,7 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <a class="navbar-brand" href="/">HAO</a>
+      <a class="navbar-brand" href="/"></a>
     </div>
 
     <!-- Collect the nav links, forms, and other content for toggling -->
@@ -247,17 +247,6 @@
           
           
           <li>
-            <a href="/archive/">
-              
-              归档
-              
-              
-            </a>
-          </li>
-          
-          
-          
-          <li>
             <a href="/about/">
               
               关于
@@ -269,9 +258,9 @@
           
           
           <li>
-            <a href="/tags/">
+            <a href="/archive/">
               
-              标签
+              归档
               
               
             </a>
@@ -283,6 +272,17 @@
             <a href="/categories/">
               
               分类
+              
+              
+            </a>
+          </li>
+          
+          
+          
+          <li>
+            <a href="/tags/">
+              
+              标签
               
               
             </a>
@@ -463,54 +463,41 @@
       <!-- Post Container -->
       <div class="col-lg-8 col-lg-offset-1 col-md-10 col-md-offset-1 post-container">
 
-        <h2 id="一、准备">一、准备</h2>
-<h3 id="GitHub账号">GitHub账号</h3>
-<p><a href="https://github.com/">GitHub官网</a>使用邮箱进行注册（用户名建议不要太随意，后面会用到）。注册成功后顺便把用于保存我们网页Repositories(仓库)创建了:</p>
-<p>点左上角那个绿色的<strong>New</strong>，首先设置<strong>Repository name</strong>，注意格式为你的<u>用户名.github.io</u>（成功发布后可以再在setting中绑定到自己的域名）下方默认是Private，这里选择<strong>Public</strong>，并勾选下方的<strong>Add a README file</strong>，下面这样就算是搞定了。</p>
-<p><img src="1.png" alt=""></p>
-<h3 id="安装Node-js（提供JavaScript运行环境）">安装Node.js（提供JavaScript运行环境）</h3>
-<p><a target="_blank" rel="noopener" href="https://nodejs.org/zh-cn/">Node官网</a>,下载左边的即可，一路Next安装即可。</p>
-<h3 id="安装Git-hexo部署到GitHub时要用。">安装Git(<code>hexo</code>部署到<code>GitHub</code>时要用。)</h3>
-<p>进入<a target="_blank" rel="noopener" href="https://git-scm.com/downloads">Git官网</a>后在Downloads方框中选择自己的系统，选择自己电脑操作位数的Installer下载之后打开也是一路Next即可（此处需注意一下安装路径，待会要用）。</p>
-<h3 id="安装Hexo">安装Hexo</h3>
-<p>我们采用<code>Hexo</code>来创建我们的博客网站，<code>Hexo</code> 是一个基于<code>NodeJS</code>的静态博客网站生成器，使用<code>Hexo</code>不需开发，只要进行一些必要的配置即可生成性化的博客网站，非常方便。点击进入 <a target="_blank" rel="noopener" href="https://hexo.io/zh-cn/">官网</a>。</p>
-<p>安装 <code>Hexo</code>:</p>
+        <h2 id="一、准备"><a href="#一、准备" class="headerlink" title="一、准备"></a>一、准备</h2><h3 id="GitHub账号"><a href="#GitHub账号" class="headerlink" title="GitHub账号"></a>GitHub账号</h3><p><a href="https://github.com/">GitHub官网</a>使用邮箱进行注册（用户名建议不要太随意，后面会用到）。注册成功后顺便把用于保存我们网页Repositories(仓库)创建了:</p>
+<p>  点左上角那个绿色的<strong>New</strong>，首先设置<strong>Repository name</strong>，注意格式为你的<u>用户名.github.io</u>（成功发布后可以再在setting中绑定到自己的域名）下方默认是Private，这里选择<strong>Public</strong>，并勾选下方的<strong>Add a README file</strong>，下面这样就算是搞定了。</p>
+<p><img src="1.png" alt=""> </p>
+<h3 id="安装Node-js（提供JavaScript运行环境）"><a href="#安装Node-js（提供JavaScript运行环境）" class="headerlink" title="安装Node.js（提供JavaScript运行环境）"></a>安装Node.js（提供JavaScript运行环境）</h3><p><a target="_blank" rel="noopener" href="https://nodejs.org/zh-cn/">Node官网</a>,下载左边的即可，一路Next安装即可。</p>
+<h3 id="安装Git-hexo部署到GitHub时要用。"><a href="#安装Git-hexo部署到GitHub时要用。" class="headerlink" title="安装Git(hexo部署到GitHub时要用。)"></a>安装Git(<code>hexo</code>部署到<code>GitHub</code>时要用。)</h3><p>进入<a target="_blank" rel="noopener" href="https://git-scm.com/downloads">Git官网</a>后在Downloads方框中选择自己的系统，选择自己电脑操作位数的Installer下载之后打开也是一路Next即可（此处需注意一下安装路径，待会要用）。</p>
+<h3 id="安装Hexo"><a href="#安装Hexo" class="headerlink" title="安装Hexo"></a>安装Hexo</h3><p>我们采用<code>Hexo</code>来创建我们的博客网站，<code>Hexo</code> 是一个基于<code>NodeJS</code>的静态博客网站生成器，使用<code>Hexo</code>不需开发，只要进行一些必要的配置即可生成性化的博客网站，非常方便。点击进入 <a target="_blank" rel="noopener" href="https://hexo.io/zh-cn/">官网</a>。</p>
+<p>安装 <code>Hexo</code>:</p>
 <p>WIn+R 输入cmd打开命令行，选择一个安装位置，比如我安装在F盘创建的Blog文件夹下，</p>
 <figure class="highlight avrasm"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="symbol">F:</span>     </span><br><span class="line">cd Blog</span><br></pre></td></tr></table></figure>
 <p>然后使用下面的指令进行安装（可以在不同文件夹下安装）</p>
 <figure class="highlight avrasm"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm install hexo-<span class="keyword">cli</span> -g</span><br></pre></td></tr></table></figure>
-<p>在文件中创建一个项目 <code>hexo-blog</code> 并初始化</p>
+<p>在文件中创建一个项目 <code>hexo-blog</code> 并初始化</p>
 <figure class="highlight mipsasm"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">hexo init hexo-<span class="keyword">blog</span></span><br><span class="line"><span class="keyword">cd </span>hexo-<span class="keyword">blog</span></span><br><span class="line"><span class="keyword">npm </span><span class="keyword">install</span></span><br></pre></td></tr></table></figure>
 <p>本地启动</p>
 <figure class="highlight ebnf"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="attribute">hexo g</span></span><br><span class="line"><span class="attribute">hexo s</span></span><br></pre></td></tr></table></figure>
 <p>接着浏览器访问 <a target="_blank" rel="noopener" href="http://localhost:4000">http://localhost:4000</a>即可进入Hexo默认主题。</p>
-<h2 id="二、选择和更换主题">二、选择和更换主题</h2>
-<h3 id="进入Hexo官网点击上方主题进行选择">进入<a target="_blank" rel="noopener" href="https://hexo.io/zh-cn/">Hexo官网</a>点击上方<code>主题</code>进行选择</h3>
-<p>*希望你不会选上头，哈哈哈。下面是Butterfly主题以及当前主题的下载链接，国内优先使用Gitee。</p>
+<h2 id="二、选择和更换主题"><a href="#二、选择和更换主题" class="headerlink" title="二、选择和更换主题"></a>二、选择和更换主题</h2><h3 id="进入Hexo官网点击上方主题进行选择"><a href="#进入Hexo官网点击上方主题进行选择" class="headerlink" title="进入Hexo官网点击上方主题进行选择"></a>进入<a target="_blank" rel="noopener" href="https://hexo.io/zh-cn/">Hexo官网</a>点击上方<code>主题</code>进行选择</h3><p>  *希望你不会选上头，哈哈哈。下面是Butterfly主题以及当前主题的下载链接，国内优先使用Gitee。</p>
 <figure class="highlight awk"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">Butterfly :https:<span class="regexp">//gi</span>tee.com<span class="regexp">/immyw/</span>hexo-theme-butterfly.git</span><br><span class="line">LiveMyLife:https:<span class="regexp">//gi</span>tee.com<span class="regexp">/V_Vincen/</span>hexo-theme-livemylife.git</span><br></pre></td></tr></table></figure>
-<h3 id="安装">安装</h3>
-<p>以Butterfly为例，打开cmd窗口cd定位到刚才hexo-blog下，然后执行</p>
+<h3 id="安装"><a href="#安装" class="headerlink" title="安装"></a>安装</h3><p>以Butterfly为例，打开cmd窗口cd定位到刚才hexo-blog下，然后执行</p>
 <figure class="highlight awk"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">git clone https:<span class="regexp">//gi</span>tee.com<span class="regexp">/immyw/</span>hexo-theme-butterfly.git</span><br><span class="line">npm install hexo-renderer-pug hexo-renderer-stylus --save</span><br><span class="line">npm install</span><br></pre></td></tr></table></figure>
-<p>1.下载完成之后<code>hexo-blog</code>下就有一个叫做<code>hexo-theme-butterfly</code>的文件，将其拖入<code>theme</code>文件当中并将其文件名改为<code>butterfly</code>之后返回上一级文件夹，双击打开<code>_config.yml</code>文件(推荐<a target="_blank" rel="noopener" href="https://code.visualstudio.com/">VScode</a>)。将theme后面的内容改为butterfly，<strong>注意引号后面有一个空格</strong>。</p>
-<p>2.后续配置：进入自己的Github仓库页面，点击绿色的Code获取仓库链接</p>
+<p>  1.下载完成之后<code>hexo-blog</code>下就有一个叫做<code>hexo-theme-butterfly</code>的文件，将其拖入<code>theme</code>文件当中并将其文件名改为<code>butterfly</code>之后返回上一级文件夹，双击打开<code>_config.yml</code>文件(推荐<a target="_blank" rel="noopener" href="https://code.visualstudio.com/">VScode</a>)。将theme后面的内容改为butterfly，<strong>注意引号后面有一个空格</strong>。</p>
+<p>  2.后续配置：进入自己的Github仓库页面，点击绿色的Code获取仓库链接</p>
 <p><img src="4.png" alt=""></p>
 <p>然后点击上边栏的<code>Settings</code>，点击<code>Pages</code>将<code>Branch</code>改为<code>main</code></p>
 <p><img src="5.png" alt=""></p>
-<p>*为了方便后续上传到Github，在下方type处添加git，添加repo: 你的仓库链接，添加branch: main</p>
+<p>  *为了方便后续上传到Github，在下方type处添加git，添加repo: 你的仓库链接，添加branch: main</p>
 <p><img src="2.png" alt=""></p>
-<p>*此时一并将url处同样改为仓库链接</p>
+<p>   *此时一并将url处同样改为仓库链接</p>
 <p><img src="3.png" alt=""></p>
-<h3 id="运行">运行</h3>
-<p>方法同上，打开cmd窗口，输入</p>
+<h3 id="运行"><a href="#运行" class="headerlink" title="运行"></a>运行</h3><p>方法同上，打开cmd窗口，输入</p>
 <pre><code>hexo g
 hexo s
-</code></pre>
-<p>然后访问 <a target="_blank" rel="noopener" href="http://localhost:4000">http://localhost:4000</a>即可预览主题。</p>
-<h3 id="配置主题">配置主题</h3>
-<p>请参考主题<a target="_blank" rel="noopener" href="https://butterfly.js.org/">Butterfly</a>的给出的指南，建议先对主题进行一些自定义修改后再提交到Github。</p>
-<h2 id="三、发布到GitHub-Pages">三、发布到GitHub Pages</h2>
-<h3 id="使用Git配置SSH-Secure-Shell">使用Git配置SSH(Secure Shell)</h3>
-<p>*此处建议关闭代理服务之后再进行操作，不然会生成代理的SSH key，可能会影响上传</p>
+</code></pre><p>然后访问 <a target="_blank" rel="noopener" href="http://localhost:4000">http://localhost:4000</a>即可预览主题。</p>
+<h3 id="配置主题"><a href="#配置主题" class="headerlink" title="配置主题"></a>配置主题</h3><p>请参考主题<a target="_blank" rel="noopener" href="https://butterfly.js.org/">Butterfly</a>的给出的指南，建议先对主题进行一些自定义修改后再提交到Github。</p>
+<h2 id="三、发布到GitHub-Pages"><a href="#三、发布到GitHub-Pages" class="headerlink" title="三、发布到GitHub Pages"></a>三、发布到GitHub Pages</h2><h3 id="使用Git配置SSH-Secure-Shell"><a href="#使用Git配置SSH-Secure-Shell" class="headerlink" title="使用Git配置SSH(Secure Shell)"></a>使用Git配置SSH(Secure Shell)</h3><p>   *此处建议关闭代理服务之后再进行操作，不然会生成代理的SSH key，可能会影响上传</p>
 <ol>
 <li>找到刚才Git的安装路径，双击打开文件中的<strong>git-bash.exe</strong>输入下面的代码</li>
 </ol>
@@ -518,40 +505,30 @@ hexo s
 <p>此时弹出登录框则直接进行登录,继续输入</p>
 <figure class="highlight excel"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">ssh-keygen -<span class="built_in">t</span> rsa -C <span class="string">&quot;Github的注册邮箱&quot;</span></span><br></pre></td></tr></table></figure>
 <p>生成之后前往<code>C/用户/（你电脑的用户名）/.shh</code>用记事本打开文件<code>id_rsa.pub</code>然后复制里面的所有内容。</p>
-<ol start="2">
+<ol>
 <li>前往自己的Github主页，点击自己右上角的头像，点击<code>settings</code>,选择左边栏中的<code>SSH and GPG keys</code>,点击<code>New SSh key</code>进行填写：</li>
 </ol>
 <figure class="highlight gauss"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">Title</span>:最好就取你电脑的设备名</span><br><span class="line"><span class="built_in">Key</span> <span class="built_in">type</span>:</span><br><span class="line">Authentication <span class="built_in">Key</span></span><br><span class="line"><span class="built_in">Key</span>:粘贴刚才复制的<span class="built_in">key</span></span><br></pre></td></tr></table></figure>
 <p>然后点击<code>Add SSH key</code>即可。</p>
-<h3 id="进行发布">进行发布</h3>
-<p>同样打开cmd窗口，先配置git，输入</p>
+<h3 id="进行发布"><a href="#进行发布" class="headerlink" title="进行发布"></a>进行发布</h3><p>同样打开cmd窗口，先配置git，输入</p>
 <pre><code>npm install hexo-depoloyer-git --save
-</code></pre>
-<p>然后生成并提交到Github</p>
+</code></pre><p>然后生成并提交到Github</p>
 <pre><code>hexo g
 hexo d
-</code></pre>
-<p>等待提交完成即可，回到Github仓库，刷新页面，之后访问网页地址查看是否成功</p>
-<h3 id="提交失败怎么办">提交失败怎么办</h3>
-<p>首先进入博客文件，删除第一个文件<code>.deploy_git</code>,进入_<code>config.yml</code>,将上面步骤中两个https类型的仓库链接替换成SSH链接（获取方式相同）</p>
+</code></pre><p>等待提交完成即可，回到Github仓库，刷新页面，之后访问网页地址查看是否成功</p>
+<h3 id="提交失败怎么办"><a href="#提交失败怎么办" class="headerlink" title="提交失败怎么办"></a>提交失败怎么办</h3><p>首先进入博客文件，删除第一个文件<code>.deploy_git</code>,进入_<code>config.yml</code>,将上面步骤中两个https类型的仓库链接替换成SSH链接（获取方式相同）</p>
 <p>之后打开cmd窗口，输入</p>
 <pre><code>hexo clean
 hexo g
 hexo d
-</code></pre>
-<h2 id="四、推荐的MarkDown编辑器">四、推荐的MarkDown编辑器</h2>
-<p>首推开源的免费编辑器[Marktext](<a href="https://github.com/marktext/marktext/releases/tag/v0.17.1">Release 0.17.1 · marktext/marktext · GitHub</a>)，其次<a target="_blank" rel="noopener" href="https://code.visualstudio.com/">VScode</a>也不错，哈哈哈。</p>
-<h2 id="五、将自己的域名解析到Github-Pages">五、将自己的域名解析到Github Pages</h2>
-<h3 id="域名购买">域名购买</h3>
-<p>当然得拥有一个域名，各大域名购买网站新用户首年还是挺便宜的。</p>
-<p>*这里小小吐槽一下域名备案，真的很慢有木有，另外，个人域名不用之后记得注销实名。</p>
-<h3 id="域名解析">域名解析</h3>
-<p>此处以腾讯云为例，在控制台中选择<code> DNS 解析 DNSPod</code>选择自己的域名，然后点击快速添加解析，选择<code>域名映射</code>，下方输入自己的Page链接。</p>
+</code></pre><h2 id="四、推荐的MarkDown编辑器"><a href="#四、推荐的MarkDown编辑器" class="headerlink" title="四、推荐的MarkDown编辑器"></a>四、推荐的MarkDown编辑器</h2><p>首推开源的免费编辑器<a href="[Release 0.17.1 · marktext/marktext · GitHub](https://github.com/marktext/marktext/releases/tag/v0.17.1">Marktext</a>)，其次<a target="_blank" rel="noopener" href="https://code.visualstudio.com/">VScode</a>也不错，哈哈哈。</p>
+<h2 id="五、将自己的域名解析到Github-Pages"><a href="#五、将自己的域名解析到Github-Pages" class="headerlink" title="五、将自己的域名解析到Github Pages"></a>五、将自己的域名解析到Github Pages</h2><h3 id="域名购买"><a href="#域名购买" class="headerlink" title="域名购买"></a>域名购买</h3><p>当然得拥有一个域名，各大域名购买网站新用户首年还是挺便宜的。</p>
+<p>  *这里小小吐槽一下域名备案，真的很慢有木有，另外，个人域名不用之后记得注销实名。</p>
+<h3 id="域名解析"><a href="#域名解析" class="headerlink" title="域名解析"></a>域名解析</h3><p>此处以腾讯云为例，在控制台中选择<code>DNS 解析 DNSPod</code>选择自己的域名，然后点击快速添加解析，选择<code>域名映射</code>，下方输入自己的Page链接。</p>
 <p><img src="7.png" alt=""></p>
 <p>同样是在<code>Settings</code>的<code>Pages</code>页面中，在<code>Custom domain</code>中添加自己的域名并<code>Save</code>即可，解析完成后就可以用自己的域名进行访问了。</p>
 <p><img src="6.png" alt=""></p>
-<h2 id="六、其他">六、其他</h2>
-<p>以上是基于Windows的博客搭建指南，关于其他平台的搭建方法同样有很多值得参考和学习的地方。最后，希望本文能给你带来一点灵感和启发，just do it！</p>
+<h2 id="六、其他"><a href="#六、其他" class="headerlink" title="六、其他"></a>六、其他</h2><p>以上是基于Windows的博客搭建指南，关于其他平台的搭建方法同样有很多值得参考和学习的地方。最后，希望本文能给你带来一点灵感和启发，just do it！</p>
 
 
         <hr>

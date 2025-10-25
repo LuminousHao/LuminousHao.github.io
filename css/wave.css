@@ -1,9 +1,9 @@
 /* Waveoverlay */
 :root{
-  --gentle-wave1: rgba(255, 255, 255, 0.7);
-  --gentle-wave2: rgba(255, 255, 255, 0.5);
-  --gentle-wave3: rgba(255, 255, 255, 0.3);
-  --gentle-wave: #fff;
+  --gentle-wave1: rgba(255, 255, 255, 0.6);
+  --gentle-wave2: rgba(255, 255, 255, 0.4);
+  --gentle-wave3: rgba(255, 255, 255, 0.2);
+  --gentle-wave: rgba(255, 255, 255, 0.3);;
 }
 
 .preview-overlay {
@@ -19,8 +19,8 @@
     width: 100%;
     height: 0vh;
     margin-bottom: -8px;
-    min-height: 100px;
-    max-height: 150px;
+    min-height: 70px;
+    max-height: 120px;
 }
 
 @media (max-width: 768px) {

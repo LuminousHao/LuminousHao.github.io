@@ -230,7 +230,7 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <a class="navbar-brand" href="/">HAO</a>
+      <a class="navbar-brand" href="/"></a>
     </div>
 
     <!-- Collect the nav links, forms, and other content for toggling -->
@@ -247,17 +247,6 @@
           
           
           <li>
-            <a href="/archive/">
-              
-              归档
-              
-              
-            </a>
-          </li>
-          
-          
-          
-          <li>
             <a href="/about/">
               
               关于
@@ -269,9 +258,9 @@
           
           
           <li>
-            <a href="/tags/">
+            <a href="/archive/">
               
-              标签
+              归档
               
               
             </a>
@@ -283,6 +272,17 @@
             <a href="/categories/">
               
               分类
+              
+              
+            </a>
+          </li>
+          
+          
+          
+          <li>
+            <a href="/tags/">
+              
+              标签
               
               
             </a>
@@ -463,184 +463,84 @@
       <!-- Post Container -->
       <div class="col-lg-8 col-lg-offset-1 col-md-10 col-md-offset-1 post-container">
 
-        <h1>前言</h1>
-<p>最近无意间刷到一些关于笔记的视频，让我这个高三以来已经多年不怎么写笔记的人一下来了兴趣，在好奇心的驱使下跟着视频内容进行操作，但中途还是遇到了一些奇奇怪怪的问题，好在最后都解决了。最后发现确实不用怎么写笔记了，以后应该是敲笔记才对吧。</p>
-<h2 id="记忆的过程">记忆的过程</h2>
-<ul>
-<li>
-<p>知识被大脑记住的过程 知识被大脑记住的过程是一个复杂的生理和心理过程，主要分为三个阶段：</p>
-<ul>
+        <h1 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h1><p>最近无意间刷到一些关于笔记的视频，让我这个高三以来已经多年不怎么写笔记的人一下来了兴趣，在好奇心的驱使下跟着视频内容进行操作，但中途还是遇到了一些奇奇怪怪的问题，好在最后都解决了。最后发现确实不用怎么写笔记了，以后应该是敲笔记才对吧。</p>
+<h2 id="记忆的过程"><a href="#记忆的过程" class="headerlink" title="记忆的过程"></a>记忆的过程</h2><ul>
+<li>知识被大脑记住的过程 知识被大脑记住的过程是一个复杂的生理和心理过程，主要分为三个阶段：<ul>
 <li>编码阶段： 大脑将信息转换为神经信号，并将其存储在短期记忆中。</li>
 <li>巩固阶段： 短期记忆中的信息通过重复或意义编码被转移到长期记忆中。</li>
-<li>检索阶段： 当需要回忆信息时，大脑会从长期记忆中检索相关信息。<br>
-<a target="_blank" rel="noopener" href="https://zhuanlan.zhihu.com/p/453739803">来源</a></li>
+<li>检索阶段： 当需要回忆信息时，大脑会从长期记忆中检索相关信息。<br><a target="_blank" rel="noopener" href="https://zhuanlan.zhihu.com/p/453739803">来源</a></li>
 </ul>
 </li>
-<li>
-<p>💡 影响记忆的关键因素 影响记忆的关键因素包括：</p>
+<li><p>💡 影响记忆的关键因素 影响记忆的关键因素包括：</p>
 <ul>
 <li>注意： 对信息进行充分的注意是记忆的前提。</li>
 <li>意义编码： 将信息与已有的知识联系起来，使其更有意义，更容易记忆。</li>
 <li>重复： 重复信息可以加强记忆痕迹。</li>
-<li>情感： 情感强烈的信息更容易被记住。<br>
-<a target="_blank" rel="noopener" href="https://www.zhihu.com/question/19689657">来源</a></li>
+<li>情感： 情感强烈的信息更容易被记住。<br><a target="_blank" rel="noopener" href="https://www.zhihu.com/question/19689657">来源</a></li>
 </ul>
 </li>
-<li>
-<p>📚 学习的终极奥秘 学习的终极奥秘在于如何将知识转化为长期记忆。一些有效的学习方法包括：</p>
-<ul>
+<li>📚 学习的终极奥秘 学习的终极奥秘在于如何将知识转化为长期记忆。一些有效的学习方法包括：<ul>
 <li>检索练习： 通过回忆来巩固记忆。</li>
 <li>间隔重复： 在不同的时间间隔内重复学习信息。</li>
-<li>多样化练习： 使用不同的学习方式来加强记忆。<br>
-<a target="_blank" rel="noopener" href="https://www.madewill.com/thinking-model/secret-of-learning.html">来源</a><br></li>
+<li>多样化练习： 使用不同的学习方式来加强记忆。<br><a target="_blank" rel="noopener" href="https://www.madewill.com/thinking-model/secret-of-learning.html">来源</a><br></li>
 </ul>
 </li>
 </ul>
 <p><strong>从上面的内容中我们可以发现重复的力量是相当强大的，其实也就是复习。那么有没有一种笔记方式，能让我们快速获取笔记内容并且能够将重要内容进行有效的重复呢？而这个问题也正是本文所探讨的核心，我们应该如何实现</strong></p>
-<h2 id="自己动手丰衣足食？">自己动手丰衣足食？</h2>
-<p>从纸质笔记到电子笔记，各有优势利弊。在某些情况下，人们仍然会选择使用纸质笔记。然而，目前电子笔记的使用频率越来越高，越来越多的人开始依赖于电子笔记。但是，随着电子笔记的普及，一些问题也逐渐显现出来，例如越来越多的笔记软件采用付费模式，以及充斥着大量无用内容的现象。在商业化的推动下，一些厂商或许已经忘记了最初的用户需求。理想中的笔记软件应该具备一些基本特点，比如能够快速获取基本的笔记内容、页面简洁明了、笔记管理和使用方法简单易懂、能够实现笔记之间的关联性，以及能够帮助用户提取和复习知识重点。<strong>而目前市面上的免费的笔记软件很难同时满足以上的需求，好在，自己动手便可以丰衣足食</strong><br>
-<img src="1.png" alt=""><br>
-<small><em>Obisidian双向链接</em></small></p>
-</br>
-<h1>软件介绍</h1>
-<h2 id="Obsidian"><a target="_blank" rel="noopener" href="https://obsidian.md/">Obsidian</a></h2>
-<h3 id="什么是Obsidian">什么是Obsidian</h3>
-<p>Obsidian，是使用Markdown语法的闭源笔记软件。用户可以在笔记间建立双向链接，并且可以神经网络图的形式将这些链接可视化。该笔记旨在帮助用户以一种灵活的、非线性的方式来组织和构架他们的想法和知识。<br>
-<img src="2.png" alt=""></p>
-<h3 id="Obsidian的优势">Obsidian的优势</h3>
-<ul>
-<li>
-<p>双链笔记：Obsidian 的双链笔记功能使得笔记之间可以相互关联，这在传统笔记软件中并不常见。这种双向链接可以帮助用户更好地组织和理解复杂的信息关系。</p>
+<h2 id="自己动手丰衣足食？"><a href="#自己动手丰衣足食？" class="headerlink" title="自己动手丰衣足食？"></a>自己动手丰衣足食？</h2><p>从纸质笔记到电子笔记，各有优势利弊。在某些情况下，人们仍然会选择使用纸质笔记。然而，目前电子笔记的使用频率越来越高，越来越多的人开始依赖于电子笔记。但是，随着电子笔记的普及，一些问题也逐渐显现出来，例如越来越多的笔记软件采用付费模式，以及充斥着大量无用内容的现象。在商业化的推动下，一些厂商或许已经忘记了最初的用户需求。理想中的笔记软件应该具备一些基本特点，比如能够快速获取基本的笔记内容、页面简洁明了、笔记管理和使用方法简单易懂、能够实现笔记之间的关联性，以及能够帮助用户提取和复习知识重点。<strong>而目前市面上的免费的笔记软件很难同时满足以上的需求，好在，自己动手便可以丰衣足食</strong><br><img src="1.png" alt=""><br><small><em>Obisidian双向链接</em></small></p>
+<p>&lt;/br&gt;</p>
+<h1 id="软件介绍"><a href="#软件介绍" class="headerlink" title="软件介绍"></a>软件介绍</h1><h2 id="Obsidian"><a href="#Obsidian" class="headerlink" title="Obsidian"></a><a target="_blank" rel="noopener" href="https://obsidian.md/">Obsidian</a></h2><h3 id="什么是Obsidian"><a href="#什么是Obsidian" class="headerlink" title="什么是Obsidian"></a>什么是Obsidian</h3><p>Obsidian，是使用Markdown语法的闭源笔记软件。用户可以在笔记间建立双向链接，并且可以神经网络图的形式将这些链接可视化。该笔记旨在帮助用户以一种灵活的、非线性的方式来组织和构架他们的想法和知识。<br><img src="2.png" alt=""></p>
+<h3 id="Obsidian的优势"><a href="#Obsidian的优势" class="headerlink" title="Obsidian的优势"></a>Obsidian的优势</h3><ul>
+<li><p>双链笔记：Obsidian 的双链笔记功能使得笔记之间可以相互关联，这在传统笔记软件中并不常见。这种双向链接可以帮助用户更好地组织和理解复杂的信息关系。</p>
 </li>
-<li>
-<p>Markdown 支持：Obsidian 支持 Markdown 语法，这使得用户可以使用简单的标记语言来编辑和格式化笔记，而不必依赖复杂的编辑界面。</p>
+<li><p>Markdown 支持：Obsidian 支持 Markdown 语法，这使得用户可以使用简单的标记语言来编辑和格式化笔记，而不必依赖复杂的编辑界面。</p>
 </li>
-<li>
-<p>本地优先：Obsidian 采取本地优先的存储方式，用户的笔记数据存储在本地设备上，而不是云端。这样可以确保数据的安全性和隐私性。</p>
+<li><p>本地优先：Obsidian 采取本地优先的存储方式，用户的笔记数据存储在本地设备上，而不是云端。这样可以确保数据的安全性和隐私性。</p>
 </li>
-<li>
-<p>插件生态：Obsidian 具有丰富的插件生态系统，用户可以根据自己的需求选择安装各种插件来扩展软件的功能。</p>
+<li><p>插件生态：Obsidian 具有丰富的插件生态系统，用户可以根据自己的需求选择安装各种插件来扩展软件的功能。</p>
 </li>
-<li>
-<p>自定义性：Obsidian 提供了丰富的自定义选项，用户可以根据自己的喜好调整界面、主题和其他设置。</p>
+<li><p>自定义性：Obsidian 提供了丰富的自定义选项，用户可以根据自己的喜好调整界面、主题和其他设置。</p>
 </li>
 </ul>
-<h3 id="开始安装">开始安装</h3>
-<p>1.进入<a target="_blank" rel="noopener" href="https://obsidian.md/">Obsidian</a>官网,下滑找到<br>
-<img src="5.png" alt=""><br>
-点击进入后下载自己系统对应的版本即可。</p>
-<h2 id="Omnivore-Web-Extension"><a target="_blank" rel="noopener" href="https://omnivore.app/">Omnivore(Web Extension)</a></h2>
-<h3 id="介绍">介绍</h3>
-<p>Omnivore 是一款免费、开源、适合认真读者阅读的应用程序。<br>
-不受干扰。 注重隐私。 开源。 专为知识工作者和终身学习者而设计。<br>
-保存文章、新闻通讯和文档并稍后阅读——专注且无干扰。 添加注释和亮点。 按照您想要的方式整理您的阅读列表并在所有设备上同步。<br>
-<img src="3.png" alt=""></p>
-<h3 id="开始安装-2">开始安装</h3>
-<p>进入浏览器扩展商店，这里以<a target="_blank" rel="noopener" href="https://chromewebstore.google.com/category/extensions?hl=zh-CN">谷歌</a>为例。进入后直接搜索Omnivore，点击下载。下载完成后会自动弹出Omnivore的界面，<strong>在此界面上注册账号并登录，方便后续步骤</strong>。</p>
-<h2 id="Anki"><a target="_blank" rel="noopener" href="https://apps.ankiweb.net/">Anki</a></h2>
-<h3 id="About-Anki">About Anki</h3>
-<p>Anki 是一个让记忆变得容易的程序。因为它比传统的学习方法效率高得多，所以您可以大大减少学习时间，也可以大大增加学习量。<br>
-任何在日常生活中需要记住事情的人都可以从 Anki 中受益。由于它与内容无关，并且支持图像、音频、视频和科学标记（通过 LaTeX），因此可能性是无穷无尽的。<br>
-<img src="4.png" alt=""></p>
-<h3 id="Features">Features</h3>
-<ul>
-<li>
-<p>Synchronization: 使用免费的AnkiWeb同步服务，让您的卡在多个设备之间保持同步。</p>
+<h3 id="开始安装"><a href="#开始安装" class="headerlink" title="开始安装"></a>开始安装</h3><p>1.进入<a target="_blank" rel="noopener" href="https://obsidian.md/">Obsidian</a>官网,下滑找到<br><img src="5.png" alt=""><br>点击进入后下载自己系统对应的版本即可。</p>
+<h2 id="Omnivore-Web-Extension"><a href="#Omnivore-Web-Extension" class="headerlink" title="Omnivore(Web Extension)"></a><a target="_blank" rel="noopener" href="https://omnivore.app/">Omnivore(Web Extension)</a></h2><h3 id="介绍"><a href="#介绍" class="headerlink" title="介绍"></a>介绍</h3><p>Omnivore 是一款免费、开源、适合认真读者阅读的应用程序。<br>不受干扰。 注重隐私。 开源。 专为知识工作者和终身学习者而设计。<br>保存文章、新闻通讯和文档并稍后阅读——专注且无干扰。 添加注释和亮点。 按照您想要的方式整理您的阅读列表并在所有设备上同步。<br><img src="3.png" alt=""></p>
+<h3 id="开始安装-1"><a href="#开始安装-1" class="headerlink" title="开始安装"></a>开始安装</h3><p>进入浏览器扩展商店，这里以<a target="_blank" rel="noopener" href="https://chromewebstore.google.com/category/extensions?hl=zh-CN">谷歌</a>为例。进入后直接搜索Omnivore，点击下载。下载完成后会自动弹出Omnivore的界面，<strong>在此界面上注册账号并登录，方便后续步骤</strong>。</p>
+<h2 id="Anki"><a href="#Anki" class="headerlink" title="Anki"></a><a target="_blank" rel="noopener" href="https://apps.ankiweb.net/">Anki</a></h2><h3 id="About-Anki"><a href="#About-Anki" class="headerlink" title="About Anki"></a>About Anki</h3><p>Anki 是一个让记忆变得容易的程序。因为它比传统的学习方法效率高得多，所以您可以大大减少学习时间，也可以大大增加学习量。<br>任何在日常生活中需要记住事情的人都可以从 Anki 中受益。由于它与内容无关，并且支持图像、音频、视频和科学标记（通过 LaTeX），因此可能性是无穷无尽的。<br><img src="4.png" alt=""></p>
+<h3 id="Features"><a href="#Features" class="headerlink" title="Features"></a>Features</h3><ul>
+<li><p>Synchronization: 使用免费的AnkiWeb同步服务，让您的卡在多个设备之间保持同步。</p>
 </li>
-<li>
-<p>Flexibility: 从卡片布局到复习时间，Anki 有丰富的选项供您自定义。</p>
+<li><p>Flexibility: 从卡片布局到复习时间，Anki 有丰富的选项供您自定义。</p>
 </li>
-<li>
-<p>Media-Rich: 在卡片上嵌入音频剪辑、图像、视频和科学标记，并精确控制其显示方式。</p>
+<li><p>Media-Rich: 在卡片上嵌入音频剪辑、图像、视频和科学标记，并精确控制其显示方式。</p>
 </li>
-<li>
-<p>Optimized: Anki: 将毫无问题地处理 100,000+ 张牌的套牌。</p>
+<li><p>Optimized: Anki: 将毫无问题地处理 100,000+ 张牌的套牌。</p>
 </li>
-<li>
-<p>Fully Extensible: 有大量可用的附加组件。</p>
+<li><p>Fully Extensible: 有大量可用的附加组件。</p>
 </li>
-<li>
-<p>Open Source: 由于代码和存储格式是开放的，因此您的重要数据是安全的。</p>
+<li><p>Open Source: 由于代码和存储格式是开放的，因此您的重要数据是安全的。</p>
+<h3 id="Start"><a href="#Start" class="headerlink" title="Start"></a>Start</h3><p>进入<a target="_blank" rel="noopener" href="https://apps.ankiweb.net/">Anki</a>官网,点击Download跳转到系统选择页面，选择对应的 <strong>Qt6</strong> 版本下载即可。<strong>安装打开之后继续注册账号并登录</strong>。</p>
 </li>
 </ul>
-<h3 id="Start">Start</h3>
-<p>进入<a target="_blank" rel="noopener" href="https://apps.ankiweb.net/">Anki</a>官网,点击Download跳转到系统选择页面，选择对应的 <strong>Qt6</strong> 版本下载即可。<strong>安装打开之后继续注册账号并登录</strong>。</p>
-<br>
-<h1>开始你的第一篇笔记</h1>
-<h2 id="一些前置设置">一些前置设置</h2>
-<h3 id="在Obsidian安装插件">在Obsidian安装插件</h3>
-<h4 id="Omnivore">Omnivore</h4>
-<p>1.进入Obsidian后点击左侧边栏最下方的齿轮进入设置页面 &gt;&gt; <em>第三方插件</em> &gt;&gt; <em>社区插件市场</em> &gt;&gt; 搜索 <strong>Omnivore</strong> &gt;&gt; 安装<br>
-<img src="7.png" alt=""><br>
-2.进入浏览器打开Omnivore &gt;&gt; 点击左下角账号 &gt;&gt; <em>API Keys</em> &gt;&gt; 复制当前浏览器的Key<br><br>
-3.返回Obsidian &gt;&gt; 继续打开设置 &gt;&gt; 在最下方 <em>第三方插件</em> 中找到Omnivore &gt;&gt; 在第一行 <em>API Keys</em> 中粘贴复制的Key<br>
-<img src="6.png" alt=""></p>
-<h4 id="Export-to-Anki">Export to Anki</h4>
-<p>1.同上方操作1，进入插件市场后搜索 <strong>Export to Anki</strong> 并安装<br><br>
-2.在插件<strong>浏览页面</strong>下滑找到 <em>Obsidian plugin users</em> 复制下方的代码并保存，<strong>后面配置Anki时会用到</strong><br>
-<img src="11.png" alt=""></p>
-<h4 id="配置Anki">配置Anki</h4>
-<p>1.打开Anki并登录账号 &gt;&gt; 选择上方 <em>工具</em> &gt;&gt; <em>插件</em> &gt;&gt; <em>获取插件</em><br><br>
-<img src="10.png" alt=""><br>
-2.输入代码 <strong>2055492159</strong> 安装插件，安装成功后在 <em>插件</em> 双击安装后的插件。弹出对话框后将 <strong>Export to Anki</strong> 复制的代码替换掉对话框中的默认代码</p>
-<h2 id="获取笔记">获取笔记</h2>
-<p>1.当浏览器成功安装Omnivore拓展之后右上角会出现一个黄色的小图标<br><br>
-2.在浏览器打开需要记录笔记的网站，点击Omnivore图标后会自动将网页内容存入inbox<br><br>
-<img src="8.png" alt=""><br>
-3.在inbox找到对应文章，在阅读时对重要内容进行高亮标记和注释，插件会自动将文章中高亮和注释内容同步到Obsidian中<br>
-<img src="9.png" alt=""><br>
-4.当一篇文章阅读完之后，可以将其存入 <em>Archive</em> 防止遗失，同时也可以为文章设置不同的标签来提高管理效率</p>
-<h2 id="如何记笔记">如何记笔记</h2>
-<h3 id="找个帮手——Monica">找个帮手——Monica</h3>
-<p>一款实用的AI助手，可以在阅读时提供信息帮助并提高笔记的效率和质量，通过浏览器插件市场下载。<br>
-<img src="12.png" alt=""></p>
-<h3 id="善用高亮">善用高亮</h3>
-<p>在添加笔记前，尽量将文章中每段章节的标题用不同颜色高亮进行标记以保证文章的完整性和阅读的流畅性。</p>
-<h2 id="让笔记更进一步——生成记忆卡片">让笔记更进一步——生成记忆卡片</h2>
-<h3 id="在Obsidian中设置卡片规则">在Obsidian中设置卡片规则</h3>
-<p>1.进入Obsidian设置页面，在 <em>第三方插件</em> 中选择 <em>Obsidian_to_Anki</em><br>
-<img src="13.png" alt=""><br>
-2.点击图片中的 <em>Note Type Table</em> 插件会自动获取Anki本地的笔记模板，只需要在 <em>Custom Regexp</em> 处填写对应的正则表达式即可<br>
-<img src="15.png" alt=""><br>
-3.前往插件的GitHub主页，使用下方提供了正则表达式页面的链接<a href="https://github.com/ObsidianToAnki/Obsidian_to_Anki/wiki/Regex">Obsidian_to_Anki/wiki/Regex</a>，在Regex页面可以获取不同形式的正则表达式<img src="14.png" alt=""><br>
-4.这里以 <strong>Question answer style</strong>(<em>问答风格</em>) 的配置为例：首先复制下图中 <em>Regex line</em> 处的正则表达式：</p>
-<figure class="highlight ruby"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">^<span class="symbol">Q:</span> ((<span class="string">?:</span>.+\n)*)\n*<span class="symbol">A:</span> (.+(<span class="string">?:\n</span>(<span class="string">?:</span>^.&#123;<span class="number">1</span>,<span class="number">3</span>&#125;<span class="variable">$|</span>^.&#123;<span class="number">4</span>&#125;(<span class="string">?&lt;</span>!&lt;!--).*))*)</span><br></pre></td></tr></table></figure>
-<p><img src="16.png" alt=""><br>
-返回Obsidian插件并进入 <em>Note Type Table</em> ,在 <em>Custom Regexp</em> 中的<strong>问答题</strong>栏处粘贴复制的表达式即可<br><br>
-5.为了方便日常使用，这里一并提供另外两种常用的正则表达式，分别在粘贴在 <strong>填空题</strong> 和 <strong>标签格式</strong> 处：</p>
-<figure class="highlight ruby"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="number">1</span>.Cloze Paragraph style</span><br><span class="line">((<span class="string">?:</span>.+\n)*(<span class="string">?:</span>.*&#123;.*)(<span class="string">?:\n</span>(<span class="string">?:</span>^.&#123;<span class="number">1</span>,<span class="number">3</span>&#125;<span class="variable">$|</span>^.&#123;<span class="number">4</span>&#125;(<span class="string">?&lt;</span>!&lt;!--).*))*)</span><br><span class="line"></span><br><span class="line"><span class="number">2</span>.Neuracache flashcard style</span><br><span class="line">((<span class="string">?:</span>[^\n][\n]<span class="string">?)</span>+) <span class="comment">#flashcard ?\n*((?:\n(?:^.&#123;1,3&#125;$|^.&#123;4&#125;(?&lt;!&lt;!--).*))+)</span></span><br></pre></td></tr></table></figure>
-<h3 id="开始制作卡片">开始制作卡片</h3>
-<p>1.在Obsidian中自动生成卡片的三种方法，如下图：<br>
-<img src="17.png" alt=""><br>
-制作好后记得点击左侧最下方的卡片进行生成，<strong>注意，生成时需打开Anki</strong> 在Anki中查看效果：<br>
-完形填空：<br>
-<img src="Anki1.png" alt=""><br>
-问答：<br>
-<img src="Anki2.png" alt=""><br>
-卡片：<br>
-<img src="Anki3.png" alt=""><br>
-2.在插件 <em>Default</em> 处可进行一些基础设计， <em>Deck</em> 可以更改卡片在Anki中的生成位置，<em>注意无需在Anki中先创建文件名</em><br>
-<img src="18.png" alt=""></p>
-<h1>后记</h1>
-<h2 id="开启新的笔记旅途">开启新的笔记旅途</h2>
-<p><strong>效果预览</strong></p>
+<p><br></p>
+<h1 id="开始你的第一篇笔记"><a href="#开始你的第一篇笔记" class="headerlink" title="开始你的第一篇笔记"></a>开始你的第一篇笔记</h1><h2 id="一些前置设置"><a href="#一些前置设置" class="headerlink" title="一些前置设置"></a>一些前置设置</h2><h3 id="在Obsidian安装插件"><a href="#在Obsidian安装插件" class="headerlink" title="在Obsidian安装插件"></a>在Obsidian安装插件</h3><h4 id="Omnivore"><a href="#Omnivore" class="headerlink" title="Omnivore"></a>Omnivore</h4><p>1.进入Obsidian后点击左侧边栏最下方的齿轮进入设置页面 &gt;&gt; <em>第三方插件</em> &gt;&gt; <em>社区插件市场</em> &gt;&gt; 搜索 <strong>Omnivore</strong> &gt;&gt; 安装<br><img src="7.png" alt=""><br>2.进入浏览器打开Omnivore &gt;&gt; 点击左下角账号 &gt;&gt; <em>API Keys</em> &gt;&gt; 复制当前浏览器的Key<br><br>3.返回Obsidian &gt;&gt; 继续打开设置 &gt;&gt; 在最下方 <em>第三方插件</em> 中找到Omnivore &gt;&gt; 在第一行 <em>API Keys</em> 中粘贴复制的Key<br><img src="6.png" alt=""></p>
+<h4 id="Export-to-Anki"><a href="#Export-to-Anki" class="headerlink" title="Export to Anki"></a>Export to Anki</h4><p>1.同上方操作1，进入插件市场后搜索 <strong>Export to Anki</strong> 并安装<br><br>2.在插件<strong>浏览页面</strong>下滑找到 <em>Obsidian plugin users</em> 复制下方的代码并保存，<strong>后面配置Anki时会用到</strong><br><img src="11.png" alt=""></p>
+<h4 id="配置Anki"><a href="#配置Anki" class="headerlink" title="配置Anki"></a>配置Anki</h4><p>1.打开Anki并登录账号 &gt;&gt; 选择上方 <em>工具</em> &gt;&gt; <em>插件</em> &gt;&gt; <em>获取插件</em><br><br><img src="10.png" alt=""><br>2.输入代码 <strong>2055492159</strong> 安装插件，安装成功后在 <em>插件</em> 双击安装后的插件。弹出对话框后将 <strong>Export to Anki</strong> 复制的代码替换掉对话框中的默认代码</p>
+<h2 id="获取笔记"><a href="#获取笔记" class="headerlink" title="获取笔记"></a>获取笔记</h2><p>1.当浏览器成功安装Omnivore拓展之后右上角会出现一个黄色的小图标<br><br>2.在浏览器打开需要记录笔记的网站，点击Omnivore图标后会自动将网页内容存入inbox<br><br><img src="8.png" alt=""><br>3.在inbox找到对应文章，在阅读时对重要内容进行高亮标记和注释，插件会自动将文章中高亮和注释内容同步到Obsidian中<br><img src="9.png" alt=""><br>4.当一篇文章阅读完之后，可以将其存入 <em>Archive</em> 防止遗失，同时也可以为文章设置不同的标签来提高管理效率</p>
+<h2 id="如何记笔记"><a href="#如何记笔记" class="headerlink" title="如何记笔记"></a>如何记笔记</h2><h3 id="找个帮手——Monica"><a href="#找个帮手——Monica" class="headerlink" title="找个帮手——Monica"></a>找个帮手——Monica</h3><p>一款实用的AI助手，可以在阅读时提供信息帮助并提高笔记的效率和质量，通过浏览器插件市场下载。<br><img src="12.png" alt=""></p>
+<h3 id="善用高亮"><a href="#善用高亮" class="headerlink" title="善用高亮"></a>善用高亮</h3><p>在添加笔记前，尽量将文章中每段章节的标题用不同颜色高亮进行标记以保证文章的完整性和阅读的流畅性。</p>
+<h2 id="让笔记更进一步——生成记忆卡片"><a href="#让笔记更进一步——生成记忆卡片" class="headerlink" title="让笔记更进一步——生成记忆卡片"></a>让笔记更进一步——生成记忆卡片</h2><h3 id="在Obsidian中设置卡片规则"><a href="#在Obsidian中设置卡片规则" class="headerlink" title="在Obsidian中设置卡片规则"></a>在Obsidian中设置卡片规则</h3><p>1.进入Obsidian设置页面，在 <em>第三方插件</em> 中选择 <em>Obsidian_to_Anki</em><br><img src="13.png" alt=""><br>2.点击图片中的 <em>Note Type Table</em> 插件会自动获取Anki本地的笔记模板，只需要在 <em>Custom Regexp</em> 处填写对应的正则表达式即可<br><img src="15.png" alt=""><br>3.前往插件的GitHub主页，使用下方提供了正则表达式页面的链接<a href="https://github.com/ObsidianToAnki/Obsidian_to_Anki/wiki/Regex">Obsidian_to_Anki/wiki/Regex</a>，在Regex页面可以获取不同形式的正则表达式<img src="14.png" alt=""><br>4.这里以 <strong>Question answer style</strong>(<em>问答风格</em>) 的配置为例：首先复制下图中 <em>Regex line</em> 处的正则表达式：<br><figure class="highlight ruby"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">^<span class="symbol">Q:</span> ((<span class="string">?:</span>.+\n)*)\n*<span class="symbol">A:</span> (.+(<span class="string">?:\n</span>(<span class="string">?:</span>^.&#123;<span class="number">1</span>,<span class="number">3</span>&#125;<span class="variable">$|</span>^.&#123;<span class="number">4</span>&#125;(<span class="string">?&lt;</span>!&lt;!--).*))*)</span><br></pre></td></tr></table></figure><br><img src="16.png" alt=""><br>返回Obsidian插件并进入 <em>Note Type Table</em> ,在 <em>Custom Regexp</em> 中的<strong>问答题</strong>栏处粘贴复制的表达式即可<br><br>5.为了方便日常使用，这里一并提供另外两种常用的正则表达式，分别在粘贴在 <strong>填空题</strong> 和 <strong>标签格式</strong> 处：<br><figure class="highlight ruby"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="number">1</span>.Cloze Paragraph style</span><br><span class="line">((<span class="string">?:</span>.+\n)*(<span class="string">?:</span>.*&#123;.*)(<span class="string">?:\n</span>(<span class="string">?:</span>^.&#123;<span class="number">1</span>,<span class="number">3</span>&#125;<span class="variable">$|</span>^.&#123;<span class="number">4</span>&#125;(<span class="string">?&lt;</span>!&lt;!--).*))*)</span><br><span class="line"></span><br><span class="line"><span class="number">2</span>.Neuracache flashcard style</span><br><span class="line">((<span class="string">?:</span>[^\n][\n]<span class="string">?)</span>+) <span class="comment">#flashcard ?\n*((?:\n(?:^.&#123;1,3&#125;$|^.&#123;4&#125;(?&lt;!&lt;!--).*))+)</span></span><br></pre></td></tr></table></figure></p>
+<h3 id="开始制作卡片"><a href="#开始制作卡片" class="headerlink" title="开始制作卡片"></a>开始制作卡片</h3><p>1.在Obsidian中自动生成卡片的三种方法，如下图：<br><img src="17.png" alt=""><br>制作好后记得点击左侧最下方的卡片进行生成，<strong>注意，生成时需打开Anki</strong> 在Anki中查看效果：<br>完形填空：<br><img src="Anki1.png" alt=""><br>问答：<br><img src="Anki2.png" alt=""><br>卡片：<br><img src="Anki3.png" alt=""><br>2.在插件 <em>Default</em> 处可进行一些基础设计， <em>Deck</em> 可以更改卡片在Anki中的生成位置，<em>注意无需在Anki中先创建文件名</em><br><img src="18.png" alt=""></p>
+<h1 id="后记"><a href="#后记" class="headerlink" title="后记"></a>后记</h1><h2 id="开启新的笔记旅途"><a href="#开启新的笔记旅途" class="headerlink" title="开启新的笔记旅途"></a>开启新的笔记旅途</h2><p><strong>效果预览</strong></p>
 <ul>
 <li><em>在Anki中对卡片进行进一步修改和完成，例如添加音频或图片等</em></li>
-<li><em>对卡片进行分组，寻找适合自己的记忆规划</em><br>
-<img src="19.png" alt=""></li>
-<li>抖音刷累了去刷一会Anki😂<br>
-<img src="a.jpg" alt=""></li>
-</ul>
-<h2 id="注意事项">注意事项</h2>
-<ul>
+<li><em>对卡片进行分组，寻找适合自己的记忆规划</em><br><img src="19.png" alt=""></li>
+<li>抖音刷累了去刷一会Anki😂<br><img src="a.jpg" alt=""><h2 id="注意事项"><a href="#注意事项" class="headerlink" title="注意事项"></a>注意事项</h2></li>
 <li>目前Anki，Omnivore，Obsidian可在谷歌应用市场下载对应的手机端，前两者均可登录账号进行免费的多端同步，Obsidian有付费同步方案，但目前免费同步方法比较麻烦，有需要可以尝试手动同步。</li>
 <li>遇到有些网站无法打开或扩展无法使用的情况大概率时需要挂T子。</li>
 <li><a target="_blank" rel="noopener" href="https://docs.ankiweb.net/">Anki详细使用手册</a></li>
 <li><a target="_blank" rel="noopener" href="https://help.obsidian.md/Home">Obsidian参考文档</a></li>
-<li><a target="_blank" rel="noopener" href="https://docs.omnivore.app/">Omnivore指南</a></li>
+<li><a target="_blank" rel="noopener" href="https://docs.omnivore.app/">Omnivore指南</a><h2 id="总结"><a href="#总结" class="headerlink" title="总结"></a>总结</h2>如《天路历程》中真理剑客所说：“我的剑留给能够挥舞它的人”。这篇文章所展示的各种方法也只是冰山一角，基于Obsidian强大的第三方插件以及Anki的开源优势，未来或许每个人都有机会拥有属于自己的一套个性化的笔记体系。</li>
 </ul>
-<h2 id="总结">总结</h2>
-<p>如《天路历程》中真理剑客所说：“我的剑留给能够挥舞它的人”。这篇文章所展示的各种方法也只是冰山一角，基于Obsidian强大的第三方插件以及Anki的开源优势，未来或许每个人都有机会拥有属于自己的一套个性化的笔记体系。</p>
 
 
         <hr>
@@ -790,7 +690,7 @@
         <div id="toc" class="toc-article">
         <strong class="toc-title">目录</strong>
         
-          <ol class="toc-nav"><li class="toc-nav-item toc-nav-level-1"><a class="toc-nav-link"><span class="toc-nav-number">1.</span> <span class="toc-nav-text">前言</span></a><ol class="toc-nav-child"><li class="toc-nav-item toc-nav-level-2"><a class="toc-nav-link" href="#%E8%AE%B0%E5%BF%86%E7%9A%84%E8%BF%87%E7%A8%8B"><span class="toc-nav-number">1.1.</span> <span class="toc-nav-text">记忆的过程</span></a></li><li class="toc-nav-item toc-nav-level-2"><a class="toc-nav-link" href="#%E8%87%AA%E5%B7%B1%E5%8A%A8%E6%89%8B%E4%B8%B0%E8%A1%A3%E8%B6%B3%E9%A3%9F%EF%BC%9F"><span class="toc-nav-number">1.2.</span> <span class="toc-nav-text">自己动手丰衣足食？</span></a></li></ol></li><li class="toc-nav-item toc-nav-level-1"><a class="toc-nav-link"><span class="toc-nav-number">2.</span> <span class="toc-nav-text">软件介绍</span></a><ol class="toc-nav-child"><li class="toc-nav-item toc-nav-level-2"><a class="toc-nav-link" href="#Obsidian"><span class="toc-nav-number">2.1.</span> <span class="toc-nav-text">Obsidian</span></a><ol class="toc-nav-child"><li class="toc-nav-item toc-nav-level-3"><a class="toc-nav-link" href="#%E4%BB%80%E4%B9%88%E6%98%AFObsidian"><span class="toc-nav-number">2.1.1.</span> <span class="toc-nav-text">什么是Obsidian</span></a></li><li class="toc-nav-item toc-nav-level-3"><a class="toc-nav-link" href="#Obsidian%E7%9A%84%E4%BC%98%E5%8A%BF"><span class="toc-nav-number">2.1.2.</span> <span class="toc-nav-text">Obsidian的优势</span></a></li><li class="toc-nav-item toc-nav-level-3"><a class="toc-nav-link" href="#%E5%BC%80%E5%A7%8B%E5%AE%89%E8%A3%85"><span class="toc-nav-number">2.1.3.</span> <span class="toc-nav-text">开始安装</span></a></li></ol></li><li class="toc-nav-item toc-nav-level-2"><a class="toc-nav-link" href="#Omnivore-Web-Extension"><span class="toc-nav-number">2.2.</span> <span class="toc-nav-text">Omnivore(Web Extension)</span></a><ol class="toc-nav-child"><li class="toc-nav-item toc-nav-level-3"><a class="toc-nav-link" href="#%E4%BB%8B%E7%BB%8D"><span class="toc-nav-number">2.2.1.</span> <span class="toc-nav-text">介绍</span></a></li><li class="toc-nav-item toc-nav-level-3"><a class="toc-nav-link" href="#%E5%BC%80%E5%A7%8B%E5%AE%89%E8%A3%85-2"><span class="toc-nav-number">2.2.2.</span> <span class="toc-nav-text">开始安装</span></a></li></ol></li><li class="toc-nav-item toc-nav-level-2"><a class="toc-nav-link" href="#Anki"><span class="toc-nav-number">2.3.</span> <span class="toc-nav-text">Anki</span></a><ol class="toc-nav-child"><li class="toc-nav-item toc-nav-level-3"><a class="toc-nav-link" href="#About-Anki"><span class="toc-nav-number">2.3.1.</span> <span class="toc-nav-text">About Anki</span></a></li><li class="toc-nav-item toc-nav-level-3"><a class="toc-nav-link" href="#Features"><span class="toc-nav-number">2.3.2.</span> <span class="toc-nav-text">Features</span></a></li><li class="toc-nav-item toc-nav-level-3"><a class="toc-nav-link" href="#Start"><span class="toc-nav-number">2.3.3.</span> <span class="toc-nav-text">Start</span></a></li></ol></li></ol></li><li class="toc-nav-item toc-nav-level-1"><a class="toc-nav-link"><span class="toc-nav-number">3.</span> <span class="toc-nav-text">开始你的第一篇笔记</span></a><ol class="toc-nav-child"><li class="toc-nav-item toc-nav-level-2"><a class="toc-nav-link" href="#%E4%B8%80%E4%BA%9B%E5%89%8D%E7%BD%AE%E8%AE%BE%E7%BD%AE"><span class="toc-nav-number">3.1.</span> <span class="toc-nav-text">一些前置设置</span></a><ol class="toc-nav-child"><li class="toc-nav-item toc-nav-level-3"><a class="toc-nav-link" href="#%E5%9C%A8Obsidian%E5%AE%89%E8%A3%85%E6%8F%92%E4%BB%B6"><span class="toc-nav-number">3.1.1.</span> <span class="toc-nav-text">在Obsidian安装插件</span></a><ol class="toc-nav-child"><li class="toc-nav-item toc-nav-level-4"><a class="toc-nav-link" href="#Omnivore"><span class="toc-nav-number">3.1.1.1.</span> <span class="toc-nav-text">Omnivore</span></a></li><li class="toc-nav-item toc-nav-level-4"><a class="toc-nav-link" href="#Export-to-Anki"><span class="toc-nav-number">3.1.1.2.</span> <span class="toc-nav-text">Export to Anki</span></a></li><li class="toc-nav-item toc-nav-level-4"><a class="toc-nav-link" href="#%E9%85%8D%E7%BD%AEAnki"><span class="toc-nav-number">3.1.1.3.</span> <span class="toc-nav-text">配置Anki</span></a></li></ol></li></ol></li><li class="toc-nav-item toc-nav-level-2"><a class="toc-nav-link" href="#%E8%8E%B7%E5%8F%96%E7%AC%94%E8%AE%B0"><span class="toc-nav-number">3.2.</span> <span class="toc-nav-text">获取笔记</span></a></li><li class="toc-nav-item toc-nav-level-2"><a class="toc-nav-link" href="#%E5%A6%82%E4%BD%95%E8%AE%B0%E7%AC%94%E8%AE%B0"><span class="toc-nav-number">3.3.</span> <span class="toc-nav-text">如何记笔记</span></a><ol class="toc-nav-child"><li class="toc-nav-item toc-nav-level-3"><a class="toc-nav-link" href="#%E6%89%BE%E4%B8%AA%E5%B8%AE%E6%89%8B%E2%80%94%E2%80%94Monica"><span class="toc-nav-number">3.3.1.</span> <span class="toc-nav-text">找个帮手——Monica</span></a></li><li class="toc-nav-item toc-nav-level-3"><a class="toc-nav-link" href="#%E5%96%84%E7%94%A8%E9%AB%98%E4%BA%AE"><span class="toc-nav-number">3.3.2.</span> <span class="toc-nav-text">善用高亮</span></a></li></ol></li><li class="toc-nav-item toc-nav-level-2"><a class="toc-nav-link" href="#%E8%AE%A9%E7%AC%94%E8%AE%B0%E6%9B%B4%E8%BF%9B%E4%B8%80%E6%AD%A5%E2%80%94%E2%80%94%E7%94%9F%E6%88%90%E8%AE%B0%E5%BF%86%E5%8D%A1%E7%89%87"><span class="toc-nav-number">3.4.</span> <span class="toc-nav-text">让笔记更进一步——生成记忆卡片</span></a><ol class="toc-nav-child"><li class="toc-nav-item toc-nav-level-3"><a class="toc-nav-link" href="#%E5%9C%A8Obsidian%E4%B8%AD%E8%AE%BE%E7%BD%AE%E5%8D%A1%E7%89%87%E8%A7%84%E5%88%99"><span class="toc-nav-number">3.4.1.</span> <span class="toc-nav-text">在Obsidian中设置卡片规则</span></a></li><li class="toc-nav-item toc-nav-level-3"><a class="toc-nav-link" href="#%E5%BC%80%E5%A7%8B%E5%88%B6%E4%BD%9C%E5%8D%A1%E7%89%87"><span class="toc-nav-number">3.4.2.</span> <span class="toc-nav-text">开始制作卡片</span></a></li></ol></li></ol></li><li class="toc-nav-item toc-nav-level-1"><a class="toc-nav-link"><span class="toc-nav-number">4.</span> <span class="toc-nav-text">后记</span></a><ol class="toc-nav-child"><li class="toc-nav-item toc-nav-level-2"><a class="toc-nav-link" href="#%E5%BC%80%E5%90%AF%E6%96%B0%E7%9A%84%E7%AC%94%E8%AE%B0%E6%97%85%E9%80%94"><span class="toc-nav-number">4.1.</span> <span class="toc-nav-text">开启新的笔记旅途</span></a></li><li class="toc-nav-item toc-nav-level-2"><a class="toc-nav-link" href="#%E6%B3%A8%E6%84%8F%E4%BA%8B%E9%A1%B9"><span class="toc-nav-number">4.2.</span> <span class="toc-nav-text">注意事项</span></a></li><li class="toc-nav-item toc-nav-level-2"><a class="toc-nav-link" href="#%E6%80%BB%E7%BB%93"><span class="toc-nav-number">4.3.</span> <span class="toc-nav-text">总结</span></a></li></ol></li></ol>
+          <ol class="toc-nav"><li class="toc-nav-item toc-nav-level-1"><a class="toc-nav-link" href="#%E5%89%8D%E8%A8%80"><span class="toc-nav-number">1.</span> <span class="toc-nav-text">前言</span></a><ol class="toc-nav-child"><li class="toc-nav-item toc-nav-level-2"><a class="toc-nav-link" href="#%E8%AE%B0%E5%BF%86%E7%9A%84%E8%BF%87%E7%A8%8B"><span class="toc-nav-number">1.1.</span> <span class="toc-nav-text">记忆的过程</span></a></li><li class="toc-nav-item toc-nav-level-2"><a class="toc-nav-link" href="#%E8%87%AA%E5%B7%B1%E5%8A%A8%E6%89%8B%E4%B8%B0%E8%A1%A3%E8%B6%B3%E9%A3%9F%EF%BC%9F"><span class="toc-nav-number">1.2.</span> <span class="toc-nav-text">自己动手丰衣足食？</span></a></li></ol></li><li class="toc-nav-item toc-nav-level-1"><a class="toc-nav-link" href="#%E8%BD%AF%E4%BB%B6%E4%BB%8B%E7%BB%8D"><span class="toc-nav-number">2.</span> <span class="toc-nav-text">软件介绍</span></a><ol class="toc-nav-child"><li class="toc-nav-item toc-nav-level-2"><a class="toc-nav-link" href="#Obsidian"><span class="toc-nav-number">2.1.</span> <span class="toc-nav-text">Obsidian</span></a><ol class="toc-nav-child"><li class="toc-nav-item toc-nav-level-3"><a class="toc-nav-link" href="#%E4%BB%80%E4%B9%88%E6%98%AFObsidian"><span class="toc-nav-number">2.1.1.</span> <span class="toc-nav-text">什么是Obsidian</span></a></li><li class="toc-nav-item toc-nav-level-3"><a class="toc-nav-link" href="#Obsidian%E7%9A%84%E4%BC%98%E5%8A%BF"><span class="toc-nav-number">2.1.2.</span> <span class="toc-nav-text">Obsidian的优势</span></a></li><li class="toc-nav-item toc-nav-level-3"><a class="toc-nav-link" href="#%E5%BC%80%E5%A7%8B%E5%AE%89%E8%A3%85"><span class="toc-nav-number">2.1.3.</span> <span class="toc-nav-text">开始安装</span></a></li></ol></li><li class="toc-nav-item toc-nav-level-2"><a class="toc-nav-link" href="#Omnivore-Web-Extension"><span class="toc-nav-number">2.2.</span> <span class="toc-nav-text">Omnivore(Web Extension)</span></a><ol class="toc-nav-child"><li class="toc-nav-item toc-nav-level-3"><a class="toc-nav-link" href="#%E4%BB%8B%E7%BB%8D"><span class="toc-nav-number">2.2.1.</span> <span class="toc-nav-text">介绍</span></a></li><li class="toc-nav-item toc-nav-level-3"><a class="toc-nav-link" href="#%E5%BC%80%E5%A7%8B%E5%AE%89%E8%A3%85-1"><span class="toc-nav-number">2.2.2.</span> <span class="toc-nav-text">开始安装</span></a></li></ol></li><li class="toc-nav-item toc-nav-level-2"><a class="toc-nav-link" href="#Anki"><span class="toc-nav-number">2.3.</span> <span class="toc-nav-text">Anki</span></a><ol class="toc-nav-child"><li class="toc-nav-item toc-nav-level-3"><a class="toc-nav-link" href="#About-Anki"><span class="toc-nav-number">2.3.1.</span> <span class="toc-nav-text">About Anki</span></a></li><li class="toc-nav-item toc-nav-level-3"><a class="toc-nav-link" href="#Features"><span class="toc-nav-number">2.3.2.</span> <span class="toc-nav-text">Features</span></a></li><li class="toc-nav-item toc-nav-level-3"><a class="toc-nav-link" href="#Start"><span class="toc-nav-number">2.3.3.</span> <span class="toc-nav-text">Start</span></a></li></ol></li></ol></li><li class="toc-nav-item toc-nav-level-1"><a class="toc-nav-link" href="#%E5%BC%80%E5%A7%8B%E4%BD%A0%E7%9A%84%E7%AC%AC%E4%B8%80%E7%AF%87%E7%AC%94%E8%AE%B0"><span class="toc-nav-number">3.</span> <span class="toc-nav-text">开始你的第一篇笔记</span></a><ol class="toc-nav-child"><li class="toc-nav-item toc-nav-level-2"><a class="toc-nav-link" href="#%E4%B8%80%E4%BA%9B%E5%89%8D%E7%BD%AE%E8%AE%BE%E7%BD%AE"><span class="toc-nav-number">3.1.</span> <span class="toc-nav-text">一些前置设置</span></a><ol class="toc-nav-child"><li class="toc-nav-item toc-nav-level-3"><a class="toc-nav-link" href="#%E5%9C%A8Obsidian%E5%AE%89%E8%A3%85%E6%8F%92%E4%BB%B6"><span class="toc-nav-number">3.1.1.</span> <span class="toc-nav-text">在Obsidian安装插件</span></a><ol class="toc-nav-child"><li class="toc-nav-item toc-nav-level-4"><a class="toc-nav-link" href="#Omnivore"><span class="toc-nav-number">3.1.1.1.</span> <span class="toc-nav-text">Omnivore</span></a></li><li class="toc-nav-item toc-nav-level-4"><a class="toc-nav-link" href="#Export-to-Anki"><span class="toc-nav-number">3.1.1.2.</span> <span class="toc-nav-text">Export to Anki</span></a></li><li class="toc-nav-item toc-nav-level-4"><a class="toc-nav-link" href="#%E9%85%8D%E7%BD%AEAnki"><span class="toc-nav-number">3.1.1.3.</span> <span class="toc-nav-text">配置Anki</span></a></li></ol></li></ol></li><li class="toc-nav-item toc-nav-level-2"><a class="toc-nav-link" href="#%E8%8E%B7%E5%8F%96%E7%AC%94%E8%AE%B0"><span class="toc-nav-number">3.2.</span> <span class="toc-nav-text">获取笔记</span></a></li><li class="toc-nav-item toc-nav-level-2"><a class="toc-nav-link" href="#%E5%A6%82%E4%BD%95%E8%AE%B0%E7%AC%94%E8%AE%B0"><span class="toc-nav-number">3.3.</span> <span class="toc-nav-text">如何记笔记</span></a><ol class="toc-nav-child"><li class="toc-nav-item toc-nav-level-3"><a class="toc-nav-link" href="#%E6%89%BE%E4%B8%AA%E5%B8%AE%E6%89%8B%E2%80%94%E2%80%94Monica"><span class="toc-nav-number">3.3.1.</span> <span class="toc-nav-text">找个帮手——Monica</span></a></li><li class="toc-nav-item toc-nav-level-3"><a class="toc-nav-link" href="#%E5%96%84%E7%94%A8%E9%AB%98%E4%BA%AE"><span class="toc-nav-number">3.3.2.</span> <span class="toc-nav-text">善用高亮</span></a></li></ol></li><li class="toc-nav-item toc-nav-level-2"><a class="toc-nav-link" href="#%E8%AE%A9%E7%AC%94%E8%AE%B0%E6%9B%B4%E8%BF%9B%E4%B8%80%E6%AD%A5%E2%80%94%E2%80%94%E7%94%9F%E6%88%90%E8%AE%B0%E5%BF%86%E5%8D%A1%E7%89%87"><span class="toc-nav-number">3.4.</span> <span class="toc-nav-text">让笔记更进一步——生成记忆卡片</span></a><ol class="toc-nav-child"><li class="toc-nav-item toc-nav-level-3"><a class="toc-nav-link" href="#%E5%9C%A8Obsidian%E4%B8%AD%E8%AE%BE%E7%BD%AE%E5%8D%A1%E7%89%87%E8%A7%84%E5%88%99"><span class="toc-nav-number">3.4.1.</span> <span class="toc-nav-text">在Obsidian中设置卡片规则</span></a></li><li class="toc-nav-item toc-nav-level-3"><a class="toc-nav-link" href="#%E5%BC%80%E5%A7%8B%E5%88%B6%E4%BD%9C%E5%8D%A1%E7%89%87"><span class="toc-nav-number">3.4.2.</span> <span class="toc-nav-text">开始制作卡片</span></a></li></ol></li></ol></li><li class="toc-nav-item toc-nav-level-1"><a class="toc-nav-link" href="#%E5%90%8E%E8%AE%B0"><span class="toc-nav-number">4.</span> <span class="toc-nav-text">后记</span></a><ol class="toc-nav-child"><li class="toc-nav-item toc-nav-level-2"><a class="toc-nav-link" href="#%E5%BC%80%E5%90%AF%E6%96%B0%E7%9A%84%E7%AC%94%E8%AE%B0%E6%97%85%E9%80%94"><span class="toc-nav-number">4.1.</span> <span class="toc-nav-text">开启新的笔记旅途</span></a></li><li class="toc-nav-item toc-nav-level-2"><a class="toc-nav-link" href="#%E6%B3%A8%E6%84%8F%E4%BA%8B%E9%A1%B9"><span class="toc-nav-number">4.2.</span> <span class="toc-nav-text">注意事项</span></a></li><li class="toc-nav-item toc-nav-level-2"><a class="toc-nav-link" href="#%E6%80%BB%E7%BB%93"><span class="toc-nav-number">4.3.</span> <span class="toc-nav-text">总结</span></a></li></ol></li></ol>
         
         </div>
       </aside>
