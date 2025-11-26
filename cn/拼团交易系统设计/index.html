@@ -463,24 +463,17 @@
       <!-- Post Container -->
       <div class="col-lg-8 col-lg-offset-1 col-md-10 col-md-offset-1 post-container">
 
-        <h1>作者正在努力更新中…</h1>
-<h2 id="一、功能分析">一、功能分析</h2>
-<p>首先，由运营配置商品拼团活动，增加折扣方式。因为有人群标签的过滤，所以可以控制哪些人可参与拼团。</p>
+        <h1 id="作者正在努力更新中…"><a href="#作者正在努力更新中…" class="headerlink" title="作者正在努力更新中…"></a>作者正在努力更新中…</h1><h2 id="一、功能分析"><a href="#一、功能分析" class="headerlink" title="一、功能分析"></a>一、功能分析</h2><p>首先，由运营配置商品拼团活动，增加折扣方式。因为有人群标签的过滤，所以可以控制哪些人可参与拼团。</p>
 <p>之后，用户可见拼团商品并参与拼团。用户可自主分享拼团或者等待拼团。因为拼团有非常大的折扣刺激用户自主分享，以此可以节省营销推广费用。</p>
 <p>最后，拼团完成，触达商品发货。这里有两种，一种运营手段是拼团成团稀有性，必须打成拼团才可以。另外一种是虚拟拼团，无论是否打成，到时都完成拼团。</p>
-<p><img src="%E5%8A%9F%E8%83%BD%E6%B5%81%E7%A8%8B.png" alt="alt text"></p>
-<h2 id="二、业务流程设计">二、业务流程设计</h2>
-<h3 id="策略模式关系图">策略模式关系图</h3>
-<p><img src="%E7%AD%96%E7%95%A5%E6%A8%A1%E5%BC%8F%E5%85%B3%E7%B3%BB%E5%9B%BE.png" alt="alt text"></p>
-<h3 id="拼团交易订单泳道图">拼团交易订单泳道图</h3>
-<p><img src="%E6%8B%BC%E5%9B%A2%E4%BA%A4%E6%98%93%E8%AE%A2%E5%8D%95%E4%B8%9A%E5%8A%A1.png" alt="alt text"></p>
-<h3 id="营销交易结算流程">营销交易结算流程</h3>
-<p>首先，团购的商品下单。下单过程分为创建流水单、锁定营销优惠（拼团、积分、券）、创建支付订单、唤起收银台支付、用户扫码支付、支付完成核销优惠等。</p>
+<p><img src="功能流程.png" alt="alt text"></p>
+<h2 id="二、业务流程设计"><a href="#二、业务流程设计" class="headerlink" title="二、业务流程设计"></a>二、业务流程设计</h2><h3 id="策略模式关系图"><a href="#策略模式关系图" class="headerlink" title="策略模式关系图"></a>策略模式关系图</h3><p><img src="策略模式关系图.png" alt="alt text"></p>
+<h3 id="拼团交易订单泳道图"><a href="#拼团交易订单泳道图" class="headerlink" title="拼团交易订单泳道图"></a>拼团交易订单泳道图</h3><p><img src="拼团交易订单业务.png" alt="alt text"></p>
+<h3 id="营销交易结算流程"><a href="#营销交易结算流程" class="headerlink" title="营销交易结算流程"></a>营销交易结算流程</h3><p>首先，团购的商品下单。下单过程分为创建流水单、锁定营销优惠（拼团、积分、券）、创建支付订单、唤起收银台支付、用户扫码支付、支付完成核销优惠等。</p>
 <p>那么，这里用户以拼团方式下单，创建流水单完成后，需要与拼团系统交互，锁定营销优惠。更新流水单优惠金额和支付金额。接下来就可以创建支付单了（支付单需要最终的支付金额）。</p>
 <p>拼团表 group_buy_order 除了有目标量（target_count）、完成量（complete），还要有一个锁单量（lock_count），当锁单量达到目标量后，用户在此组织下，不能在参与拼团。直至这些用户支付完成达成拼团或者锁单超时回退支付营销，空出可参与锁单量，这样其他用户可以继续参与。</p>
-<p><img src="aa8ee95a3d1d5e89d307e0e2886b94e8.png" alt="alt text"></p>
-<h3 id="拼团锁单业务流程">拼团锁单业务流程</h3>
-<p><img src="%E6%8B%BC%E5%9B%A2%E9%94%81%E5%8D%95%E4%B8%9A%E5%8A%A1%E6%B5%81%E7%A8%8B.png" alt="alt text"></p>
+<p><img src="营销交易结算.png" alt="alt text"></p>
+<h3 id="拼团锁单业务流程"><a href="#拼团锁单业务流程" class="headerlink" title="拼团锁单业务流程"></a>拼团锁单业务流程</h3><p><img src="拼团锁单业务流程.png" alt="alt text"></p>
 
 
         <hr>
@@ -630,7 +623,7 @@
         <div id="toc" class="toc-article">
         <strong class="toc-title">目录</strong>
         
-          <ol class="toc-nav"><li class="toc-nav-item toc-nav-level-1"><a class="toc-nav-link"><span class="toc-nav-number">1.</span> <span class="toc-nav-text">作者正在努力更新中…</span></a><ol class="toc-nav-child"><li class="toc-nav-item toc-nav-level-2"><a class="toc-nav-link" href="#%E4%B8%80%E3%80%81%E5%8A%9F%E8%83%BD%E5%88%86%E6%9E%90"><span class="toc-nav-number">1.1.</span> <span class="toc-nav-text">一、功能分析</span></a></li><li class="toc-nav-item toc-nav-level-2"><a class="toc-nav-link" href="#%E4%BA%8C%E3%80%81%E4%B8%9A%E5%8A%A1%E6%B5%81%E7%A8%8B%E8%AE%BE%E8%AE%A1"><span class="toc-nav-number">1.2.</span> <span class="toc-nav-text">二、业务流程设计</span></a><ol class="toc-nav-child"><li class="toc-nav-item toc-nav-level-3"><a class="toc-nav-link" href="#%E7%AD%96%E7%95%A5%E6%A8%A1%E5%BC%8F%E5%85%B3%E7%B3%BB%E5%9B%BE"><span class="toc-nav-number">1.2.1.</span> <span class="toc-nav-text">策略模式关系图</span></a></li><li class="toc-nav-item toc-nav-level-3"><a class="toc-nav-link" href="#%E6%8B%BC%E5%9B%A2%E4%BA%A4%E6%98%93%E8%AE%A2%E5%8D%95%E6%B3%B3%E9%81%93%E5%9B%BE"><span class="toc-nav-number">1.2.2.</span> <span class="toc-nav-text">拼团交易订单泳道图</span></a></li><li class="toc-nav-item toc-nav-level-3"><a class="toc-nav-link" href="#%E8%90%A5%E9%94%80%E4%BA%A4%E6%98%93%E7%BB%93%E7%AE%97%E6%B5%81%E7%A8%8B"><span class="toc-nav-number">1.2.3.</span> <span class="toc-nav-text">营销交易结算流程</span></a></li><li class="toc-nav-item toc-nav-level-3"><a class="toc-nav-link" href="#%E6%8B%BC%E5%9B%A2%E9%94%81%E5%8D%95%E4%B8%9A%E5%8A%A1%E6%B5%81%E7%A8%8B"><span class="toc-nav-number">1.2.4.</span> <span class="toc-nav-text">拼团锁单业务流程</span></a></li></ol></li></ol></li></ol>
+          <ol class="toc-nav"><li class="toc-nav-item toc-nav-level-1"><a class="toc-nav-link" href="#%E4%BD%9C%E8%80%85%E6%AD%A3%E5%9C%A8%E5%8A%AA%E5%8A%9B%E6%9B%B4%E6%96%B0%E4%B8%AD%E2%80%A6"><span class="toc-nav-number">1.</span> <span class="toc-nav-text">作者正在努力更新中…</span></a><ol class="toc-nav-child"><li class="toc-nav-item toc-nav-level-2"><a class="toc-nav-link" href="#%E4%B8%80%E3%80%81%E5%8A%9F%E8%83%BD%E5%88%86%E6%9E%90"><span class="toc-nav-number">1.1.</span> <span class="toc-nav-text">一、功能分析</span></a></li><li class="toc-nav-item toc-nav-level-2"><a class="toc-nav-link" href="#%E4%BA%8C%E3%80%81%E4%B8%9A%E5%8A%A1%E6%B5%81%E7%A8%8B%E8%AE%BE%E8%AE%A1"><span class="toc-nav-number">1.2.</span> <span class="toc-nav-text">二、业务流程设计</span></a><ol class="toc-nav-child"><li class="toc-nav-item toc-nav-level-3"><a class="toc-nav-link" href="#%E7%AD%96%E7%95%A5%E6%A8%A1%E5%BC%8F%E5%85%B3%E7%B3%BB%E5%9B%BE"><span class="toc-nav-number">1.2.1.</span> <span class="toc-nav-text">策略模式关系图</span></a></li><li class="toc-nav-item toc-nav-level-3"><a class="toc-nav-link" href="#%E6%8B%BC%E5%9B%A2%E4%BA%A4%E6%98%93%E8%AE%A2%E5%8D%95%E6%B3%B3%E9%81%93%E5%9B%BE"><span class="toc-nav-number">1.2.2.</span> <span class="toc-nav-text">拼团交易订单泳道图</span></a></li><li class="toc-nav-item toc-nav-level-3"><a class="toc-nav-link" href="#%E8%90%A5%E9%94%80%E4%BA%A4%E6%98%93%E7%BB%93%E7%AE%97%E6%B5%81%E7%A8%8B"><span class="toc-nav-number">1.2.3.</span> <span class="toc-nav-text">营销交易结算流程</span></a></li><li class="toc-nav-item toc-nav-level-3"><a class="toc-nav-link" href="#%E6%8B%BC%E5%9B%A2%E9%94%81%E5%8D%95%E4%B8%9A%E5%8A%A1%E6%B5%81%E7%A8%8B"><span class="toc-nav-number">1.2.4.</span> <span class="toc-nav-text">拼团锁单业务流程</span></a></li></ol></li></ol></li></ol>
         
         </div>
       </aside>
